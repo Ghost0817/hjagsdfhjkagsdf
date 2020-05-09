@@ -1,0 +1,42 @@
+Did You Know That the First Computer Programmer Was Female?
+MAY 3RD, 2018 TYPINGCOM
+EDUCATION
+Forbes Magazine recently published an article that revealed that women hold only 27% of all computer science jobs.
+
+While some might argue that women are merely prone to be less interested in computers and technology, history tells a different story.
+
+In fact, many of the first software engineers in our country…were women!
+
+So how did we come to consider computer science as a career path for boys, but not girls?
+
+History of Women in Computer Science
+Ada Lovelace designed the first computer algorithm for a proposed computer in 1843, thus becoming the first computer programmer.
+
+A century later during World War II, Hedy Lamarr invented the technology that laid the foundation for wireless signals such as Bluetooth and Wi-Fi.
+
+Soon after in 1946, a team of six women developed the basis of software programming while working on ENIAC, the first general use computer. While their contribution was essential to the project, the women didn’t receive an invitation to the dinner celebrating the completion of ENIAC.
+
+Through the 1960s, society continued to think of computer programming as “women’s work”. People saw it as a clerical job much like being a secretary.
+
+Eventually, though, society realized that computer programming is challenging work requiring extensive skill and critical thinking.
+
+With this realization came the notion that computer programming was a prestigious job that warranted higher salaries. Soon enough more males were joining the ranks of computer engineers.
+
+Over the course of a decade, men came to dominate the industry, pushing women out of their former roles.
+
+Sadly, this has left us where we are today, where fewer women pursue careers in computer programming and technology.
+
+Getting Girls Into STEM
+STEM refers to Science, Technology, Engineering, and Math. In recent years there has been a growing body of research seeking to figure out why so few girls pursue degrees and careers in STEM fields.
+
+It appears that one cause is the way that boys and girls play. The toys and games that children play with can mold their interests and eventually career paths.
+
+While boys might play with blocks or puzzles that require problem-solving when girls play with dolls it can nurture their compassionate instincts.
+
+In schools, teachers often see that girls start out just as strong in math and science as their male counterparts, but lose interest as they get older. Providing girls with great STEM teachers and mentors can keep them on track to keeping these career paths open.
+
+Luckily, society is taking note that we are not fostering the potential that girls have to become revolutionary computer scientists or engineers.
+
+There are a growing number of non-profits, camps, and programs that seek to develop these skills and interests in girls.
+
+Do you find that girls are less interested in computers than their male peers at your school? If so, what do you do to help foster this interest in all children? Leave your comments and ideas below.

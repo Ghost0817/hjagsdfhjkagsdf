@@ -1,0 +1,9 @@
+user-agent: *
+disallow: /downloads/
+
+
+user-agent: magicsearchbot
+allow: /
+
+
+sitemap: https://localhost:4200/sitemap-file.xml

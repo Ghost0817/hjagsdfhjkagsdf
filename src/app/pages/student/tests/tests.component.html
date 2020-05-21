@@ -1,7 +1,84 @@
-<div class="container">
+<div class="container super">
     <div class="top-zar">Top zariin sambar</div>
     <div class="left-zar">xajuugiin zariin sambar</div>
-    <div class="content">ene gol aguulga ne bn</div>
+    <div class="content">
+        <section class="lang_widget">
+            <ul>
+                <li class="active">
+                    <article>
+                        <div class="flagEn">
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                            <a class="lang-course" (click)="getLessons('ENGLISH')">English course</a>
+                            </h2>
+                        </div>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <div class="flagMn">
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                                <a class="lang-course" (click)="getLessons('MONGOLIAN')">Mongolian course</a>
+                            </h2>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="widget_accordion">
+            <ul>
+                <li *ngFor="let category of cateroties">
+                    <article>
+                        <div class="button">
+                            <span>+</span>
+                            <span>-</span>
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                                <a class="lang-course" (click)="getLessons('MONGOLIAN')">
+                                    <label>{{ category.enTitle }}</label>
+                                    <span class="course-status">100% Completed</span>
+                                    <span class="start-link">Эхлэх »</span>
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="item-container" style="display: block;">
+                            <ul>                                     
+                                <li class="active">
+                                    <a href="/en/student/english/1/316/">
+                                        <label>The Home Row Keys</label>
+                                        <span class="lesson-status">
+                                            <b>Completed!</b>
+                                            123
+                                            WPM / 100% Accuracy                                                              
+                                        </span>
+                                        <span class="start-btn">Үргэлжлүүлэх »</span>
+                                    </a>
+                                </li>                                                
+                                <li class="">
+                                    <a href="/en/student/english/1/317/">The Top Row Keys
+                                        <span class="start-btn">begin »</span>
+                                    </a>
+                                </li>
+                                <li *ngFor="let lesson of category.lessons">
+                                    <a>
+                                        {{ lesson.enTitle }}
+                                        <span class="start-btn">begin »</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                </li>
+            </ul>
+        </section>
+
+    </div>
 </div>
 
 

@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { ApiService } from 'src/app/core/services/api.service';
 import { contents } from 'src/app/core/constants/fake-content'
 import { FormControl, FormGroup } from '@angular/forms';
-import { element } from 'protractor';
 
 @Component({
   selector: 'app-typing-test',
@@ -13,7 +12,19 @@ import { element } from 'protractor';
 export class TypingTestComponent implements OnInit {
 
   lessons = contents;
-  speedType = 'wpm'
+
+  timeIsRunning = false;
+  timeCountIsUp = true;
+  strTime = "0:00";
+  seconds = 0;
+  minutes = 0;
+  timeLimit = 0;
+  wpm = "0";
+  lwpm = "0";
+  errors = 0;
+  characters = 0;
+
+  speedType = 'wpm';
   typingProcess = [];
   testIndex = 0;
   wordIndex = 0;
@@ -21,11 +32,30 @@ export class TypingTestComponent implements OnInit {
   words = [];
   formGroup: FormGroup;
   wrote = new FormControl("");
+  timer = null;
 
   constructor(private activatedRoute: ActivatedRoute,
               private api: ApiService) {
     activatedRoute.params.subscribe(params => {
-      console.log(params);
+      console.log(params.slug);
+      if(params.slug == "1-minute") {
+        this.minutes = 1;
+        this.seconds = 0;
+        this.timeLimit = 60;
+        this.timeCountIsUp = false;
+      }
+      if(params.slug == "3-minute") {
+        this.minutes = 3;
+        this.seconds = 0;
+        this.timeLimit = 180;
+        this.timeCountIsUp = false;
+      }
+      if(params.slug == "5-minute") {
+        this.minutes = 5;
+        this.seconds = 0;
+        this.timeLimit = 300;
+        this.timeCountIsUp = false;
+      }
       // this.api.get('/api/games').subscribe(response => {
       //   console.log(response);
       // })
@@ -89,6 +119,11 @@ export class TypingTestComponent implements OnInit {
   }
 
   onChange(wrote) {
+    if(this.timeIsRunning == false) {
+      this.timer = setInterval(this.updateTimer, 1000);
+      this.timeIsRunning = true;
+    }
+
     const letterIndex = wrote.length - 1;
     if (wrote.length <= this.words[this.wordIndex].length) {
       if (wrote === this.words[this.wordIndex].substr(0, wrote.length)) {
@@ -167,9 +202,40 @@ export class TypingTestComponent implements OnInit {
   }
 
   getbackfocus(e: any) {
-    let box =  (document.getElementsByClassName("typing-box") as HTMLCollection)[0] as HTMLDivElement;
-    console.log('on back to focus scrollTop:' + box.scrollTop);
     e.target.focus();
+  }
+  
+  updateTimer() {
+    console.log('test 1s');
+    //console.log('test 1s');
+    //console.log('test 1s');
+    console.log(this.timeLimit > 0);
+    console.log(this.timeLimit);
+    if (this.timeLimit > 0) {	// run backwards if there is a time limit
+			this.minutes = Math.floor((this.timeLimit - this.seconds)/60);
+			this.seconds = this.timeLimit - this.seconds - (this.minutes * 60);
+			if (this.timeLimit > this.seconds) {
+        this.strTime = this.minutes + ":" + this.seconds;
+			} else {
+				this.strTime = "time out";
+			}
+		} else {
+			this.minutes = Math.floor(this.seconds/60);
+			this.seconds = this.seconds-(this.minutes*60);
+      this.strTime = this.minutes +":"+ this.seconds;
+      this.seconds +=1;
+		}
+		// if (this.seconds > 5) {
+		// 	this.win.Ext.fly("wpm").dom.innerHTML = this.calculateSpeed(this.characters, this.seconds, this.errors);
+		// 	var speedLimit = this.exercises[this.exerciseNum].speedLimit;
+		// 	if (speedLimit > 0) {
+		// 		this.win.Ext.fly("wpm").dom.innerHTML = this.win.Ext.fly("wpm").dom.innerHTML + " / " + speedLimit;
+		// 	}
+		// 	this.win.Ext.fly("pro").dom.innerHTML = (isNaN(acc) || acc == Number.POSITIVE_INFINITY || acc == Number.NEGATIVE_INFINITY)?100:acc;
+		// }
+    var acc = 100-Math.round((this.errors/this.characters)*100);
+
+    //throw new Error("Method not implemented.");
   }
 
 }

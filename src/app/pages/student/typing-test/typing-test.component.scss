@@ -1,6 +1,8 @@
 
 
-.typing-container{
+
+
+.typing-container {
   display: grid;
   grid-template-areas: 
   'left_zar top_zar top_zar top_zar top_zar'
@@ -8,16 +10,64 @@
   grid-gap: 20px;
   grid-template-columns: 300px 1fr 1fr 1fr 1fr;
 
-  .top-zar{
+  .top-zar {
     grid-area: top_zar;
   }
 
-  .left-zar{
+  .left-zar {
     grid-area: left_zar;
   }
 
-  .container-main{
+  .container-main {
     grid-area: container;
+
+    .login_warring {
+      background-color: #25c6d0;
+      border: 1px solid #25c6d0;
+      padding: 8px 35px 8px 14px;
+      margin-bottom: 10px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      -webkit-tap-highlight-color: rgba(255,255,255,0)!important;
+      text-shadow: none;
+      color: #fff;
+      font-weight: 700;
+    
+      .close {
+        outline: 0;
+        float: right;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        top: 0;
+        right: -26px;
+        color: #fff;
+        line-height: 14px;
+        text-shadow: none;
+        opacity: .7;
+        padding: 0 5px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+
+    .typing-status {
+      list-style: none;
+      -webkit-backface-visibility: hidden;
+      box-shadow: 0 0 0 0 #fff inset;
+      margin-bottom: 10px;
+      padding: 0;
+      background: #ededed;
+      border: 1px solid #e2e2e2;
+      line-height: 35px;
+      font-size: 24px;
+      font-weight: 700;
+      display: grid;
+      grid-template-areas: 
+      'time wpm acc lwpm lacc sound';
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 35px;
+    }
 
     .typing-box{
       background-color: #fff;
@@ -50,22 +100,22 @@
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-        span {
-          white-space: pre-wrap;
-          margin-bottom: 5px;
-          span{
+          span {
             white-space: pre-wrap;
-      
-            padding-left: 2px;
-            padding-right: 2px;
-            display: block;
-            float: left;
-            font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-            line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
-            font-family: PT Mono,"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+            margin-bottom: 5px;
+            span{
+              white-space: pre-wrap;
+        
+              padding-left: 2px;
+              padding-right: 2px;
+              display: block;
+              float: left;
+              font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+              line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+              font-family: PT Mono,"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+            }
           }
         }
-      }
 
         .letter-right {
           background: #edf7e7;
@@ -84,3 +134,56 @@
   }
 }
 
+.typing-container.super{
+  grid-template-areas: 
+  'container container container container container';
+  .top-zar{
+    display: none;
+  }
+  .left-zar {
+    display: none;
+  }
+}
+
+
+/* Extra small devices (phones, 1289px and down) */
+@media only screen and (max-width: 1289px) {
+
+  .typing-container {
+    grid-template-areas: 
+    'top_zar top_zar top_zar top_zar top_zar'
+    'left_zar container container container container';
+  }
+  .typing-container.super{
+    grid-template-areas: 
+    'container container container container container';
+    .top-zar {
+      display: none;
+    }
+    .left-zar {
+      display: none;
+    }
+  }
+}
+
+/* Extra small devices (phones, 969px and down) */
+@media only screen and (max-width: 969px) {
+
+  .typing-container {
+    grid-template-areas: 
+    'left_zar container container container container';
+    .top-zar {
+      display: none;
+    }
+  }
+  .typing-container.super{
+    grid-template-areas: 
+    'container container container container container';
+    .top-zar {
+      display: none;
+    }
+    .left-zar {
+      display: none;
+    }
+  }
+}

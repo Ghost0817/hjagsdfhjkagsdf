@@ -75,7 +75,7 @@
                                 </li>
                                 <li *ngFor="let lesson of category.lessons">
                                     <a href="/student/lesson?lang={{currLng}}&cate={{category.slug}}&lssn={{lesson.slug}}">
-                                        {{ lesson.enTitle }}
+                                        <label>{{ lesson.enTitle }}</label>
                                         <span class="start-btn">begin »</span>
                                     </a>
                                 </li>

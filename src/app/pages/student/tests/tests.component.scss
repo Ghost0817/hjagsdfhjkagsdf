@@ -1,3 +1,111 @@
+
+  .typing-container {
+    display: grid;
+    grid-template-areas: 
+    'left_zar top_zar top_zar top_zar top_zar'
+    'left_zar container container container container';
+    grid-gap: 20px;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr;
+  
+    .top-zar {
+      grid-area: top_zar;
+    }
+  
+    .left-zar {
+      grid-area: left_zar;
+    }
+  
+    .container-main {
+      grid-area: container;
+  
+      .login_warring {
+        background-color: #25c6d0;
+        border: 1px solid #25c6d0;
+        padding: 8px 35px 8px 14px;
+        margin-bottom: 10px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-tap-highlight-color: rgba(255,255,255,0)!important;
+        text-shadow: none;
+        color: #fff;
+        font-weight: 700;
+      
+        .close {
+          outline: 0;
+          float: right;
+          font-size: 20px;
+          font-weight: 700;
+          position: relative;
+          top: 0;
+          right: -26px;
+          color: #fff;
+          line-height: 14px;
+          text-shadow: none;
+          opacity: .7;
+          padding: 0 5px;
+          cursor: pointer;
+          text-decoration: none;
+        }
+      }
+  
+    }
+  }
+  
+  .typing-container.super{
+    grid-template-areas: 
+    'container container container container container';
+    .top-zar{
+      display: none;
+    }
+    .left-zar {
+      display: none;
+    }
+  }
+  
+  
+  /* Extra small devices (phones, 1289px and down) */
+  @media only screen and (max-width: 1289px) {
+  
+    .typing-container {
+      grid-template-areas: 
+      'top_zar top_zar top_zar top_zar top_zar'
+      'left_zar container container container container';
+    }
+    .typing-container.super{
+      grid-template-areas: 
+      'container container container container container';
+      .top-zar {
+        display: none;
+      }
+      .left-zar {
+        display: none;
+      }
+    }
+  }
+  
+  /* Extra small devices (phones, 969px and down) */
+  @media only screen and (max-width: 969px) {
+  
+    .typing-container {
+      grid-template-areas: 
+      'left_zar container container container container';
+      .top-zar {
+        display: none;
+      }
+    }
+    .typing-container.super{
+      grid-template-areas: 
+      'container container container container container';
+      .top-zar {
+        display: none;
+      }
+      .left-zar {
+        display: none;
+      }
+    }
+  }
+
 .lang_widget {
     display: block;
     margin-bottom: 20px;
@@ -96,6 +204,7 @@
             border: 0;
             margin-bottom: 10px;
             padding: 0;
+            cursor: pointer;
 
             article {
                 background-color: #f7f7f7;
@@ -127,6 +236,7 @@
                     padding: 10px 0;
                     border: 1px solid #ddd;
                     border-top: none;
+                    display: none;
 
                     ul {
                         padding: 0;
@@ -151,10 +261,14 @@
                                 line-height: 27px;
                                 font-size: 14px;
                                 color: #999;
-                                display: block;
+                                display: grid;
+                                grid-template-columns: auto minmax(70px,max-content);
+
+                                label{
+                                  cursor: pointer;
+                                }
 
                                 .start-btn {
-                                    float: right;
                                     margin-right: 15px;
                                     text-align: right;
                                 }
@@ -177,8 +291,6 @@
                                 color: #25c6d0;
                                 background-color: rgba(37,198,208,.2);
                                 background-repeat: no-repeat;
-                                display: grid;
-                                grid-template-columns: auto auto minmax(70px,max-content);
                             }
                         }
                     }
@@ -206,7 +318,11 @@
 
                     a{
                         display: grid;
-                        grid-template-columns: auto auto minmax(70px,max-content);
+                        grid-template-columns: auto minmax(70px,max-content);
+
+                        label{
+                          cursor: pointer;
+                        }
                     }
 
                     .course-status {
@@ -224,6 +340,13 @@
                     }
                 }
             }
+        }
+        li.open{
+          article{
+            .item-container{
+              display: block;
+            }
+          }
         }
     }
 }

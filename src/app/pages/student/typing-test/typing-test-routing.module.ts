@@ -4,7 +4,7 @@ import { TypingTestComponent } from './typing-test.component';
 
 
 const routes: Routes = [{
-  path: ':slug',
+  path: '',
   component: TypingTestComponent
 }];
 

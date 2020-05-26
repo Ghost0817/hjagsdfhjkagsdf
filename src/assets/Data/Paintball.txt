@@ -1,2 +1,5 @@
 Paintball
 Splat! What just hit me? Where did it come from? Welcome to the world of paintball! You were just hit (or marked) by a small round colorful object, about 0.68 inches in diameter, called a paintball. This is the size of your basic paintball. A basic paintball is filled with a water-soluble dye encapsulated in gelatin and comes in nice bright colors or in eco-friendly basic green. Put this little round colorful ball in a device called a marker and you have the beginnings of an experience you will never forget. The game of paintball!
+
+Пейнтбол
+Будаг! Намайг юу цохисон юм бэ? Энэ нь хаанаас ирсэн бэ? Пейнтболын ертөнцөд тавтай морилно уу! Таныг дөнгөж сая ойролцоогоор 17.272 мм диаметртэй, пейнтбол гэж нэрлэдэг жижигхэн дугуй өнгийн объектоор цохьчихсон (эсвэл тэмдэглэсэн). Энэ бол үндсэн пейзболын хэмжээ юм. Пейнтболдыг суурь нь желатинаар бүрсэн усанд уусдаг будагч бодисоор дүүргэсэн ба сайхан тод өнгөөр эсвэл байгальд ээлтэй суурь ногоон өнгөтэй болно. Тэмдэглэгч гэж нэрлэдэг төхөөрөмжид энэ бяцхан дугуй өнгөлөг бөмбөгийг оруулж, та хэзээ ч мартагдашгүй адал явдал эхлэх болно. Пейнтболын тоглоом!

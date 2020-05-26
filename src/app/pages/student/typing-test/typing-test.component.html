@@ -54,14 +54,14 @@
 
     </div>
 
-    <h3>{{lessons[testIndex].title}}</h3>
+    <h3>{{lessons[testIndex].mnTitle}}</h3>
     
 
     <div class="typing-box">
       <div class="typing-text">
     
         <form [formGroup]="formGroup" (keyup.space)="onSpace()" (keyup.backspace)="onBackspace()">
-            <input autofocus type="text" formControlName="wrote" class="inp_text" (blur)="getbackfocus($event)"/>
+            <input autofocus type="text" autocomplete="off" formControlName="wrote" class="inp_text" (blur)="getbackfocus($event)"/>
             <div class="line-break">
               <span class="word-{{currentWord}}" *ngFor="let word of words, let currentWord = index">
                 <span [ngClass]="{'letter-right': this.typingProcess[currentWord].letters[index] === true,

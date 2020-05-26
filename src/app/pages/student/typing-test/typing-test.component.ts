@@ -11,7 +11,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class TypingTestComponent implements OnInit {
 
-  lessons = contents;
+  lessons;
 
   timeIsRunning = false;
   timeCountIsUp = true;
@@ -74,24 +74,31 @@ export class TypingTestComponent implements OnInit {
       // this.api.get('/api/posts').subscribe(response => {
       //   console.log(response);
       // })
+      this.api.get('/api/studentTests').subscribe(response => {
+        console.log(response);
+        this.lessons = response;
+
+
+        this.testIndex = this.randomNumber(0, this.lessons.length - 1);
+        this.words = this.lessons[this.testIndex].tutor.split(" ").map(word => {
+          return word + " ";
+        });
+        this.formGroup = new FormGroup({
+          wrote: new FormControl("")
+        });
+        this.formGroup.valueChanges.subscribe(change => {
+          console.log(change);
+          this.onChange(change.wrote);
+        });
+        this.words.forEach(word => {
+          this.typingProcess.push({word, status: 'unknown', letters: []});
+        });
+
+      })
     });
   }
 
   ngOnInit(): void {
-    this.testIndex = this.randomNumber(0, this.lessons.length - 1);
-    this.words = this.lessons[this.testIndex].content.split(" ").map(word => {
-      return word + " ";
-    });
-    this.formGroup = new FormGroup({
-      wrote: new FormControl("")
-    });
-    this.formGroup.valueChanges.subscribe(change => {
-      console.log(change);
-      this.onChange(change.wrote);
-    });
-    this.words.forEach(word => {
-      this.typingProcess.push({word, status: 'unknown', letters: []});
-    });
   }
 
   randomNumber(min: number, max: number) {

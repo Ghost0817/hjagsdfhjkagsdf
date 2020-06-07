@@ -5,6 +5,7 @@ import { StudentRoutingModule } from './student-routing.module';
 import { StudentComponent } from './student.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     FormsModule,
     RouterModule,
+    SharedModule,
     StudentRoutingModule
   ]
 })

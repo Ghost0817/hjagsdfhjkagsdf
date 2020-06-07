@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { TypingTestRoutingModule } from './typing-test-routing.module';
 import { TypingTestComponent } from './typing-test.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     FormsModule,
+    SharedModule,
     ReactiveFormsModule,
     TypingTestRoutingModule
   ]

@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ApiService } from './core/services/api.service';
+import { DialogComponent } from './shared/dialog/dialog.component';
 
 @NgModule({
   declarations: [

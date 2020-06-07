@@ -23,39 +23,24 @@
     </div> -->
 
     <div class="typing-status">
+
       <div class="time">{{strTime}}</div>
 
       <div class="wpm">{{wpm}} wpm</div>
 
-      <div class="pro">
-          <div id="pro">100</div>
-          <span>accuracy</span>
-      </div>
+      <div class="pro">{{accuracy}}% accuracy</div>
 
-      <div class="lwpm">
-          <div id="lwpm">
-          0
-          </div>
-          <span>lesson wpm</span>
-      </div>
+      <div class="lwpm">{{wpm}} lesson wpm</div>
 
-      <div class="lpro">
-          <div id="lpro">
-              100%
-          </div>
-          <span>lesson acc</span>
-      </div>
+      <div class="lpro">{{accuracy}}% lesson acc</div>
 
-      <div class="full-screen" id="toggle-full-screen">
-      </div>
-
-      <div class="volume off" id="volume">
-      </div>
+      <div class="volume off" id="volume"></div>
 
     </div>
 
+    <ng-template [ngIf]="lessons">
+
     <h3>{{lessons[testIndex].mnTitle}}</h3>
-    
 
     <div class="typing-box">
       <div class="typing-text">
@@ -71,16 +56,14 @@
               </span>
             </div>
         </form>
-    
-        <div>
-          <div>{{getStatus().missedWord}}</div>
-          <div>{{getStatus().missedLetter}}</div>
-        </div>
+
       </div>
     </div>
 
+  </ng-template>
 
 
 
   </div>
 </div>
+<!-- <app-dialog></app-dialog> -->

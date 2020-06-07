@@ -10,19 +10,32 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./typing-test.component.scss']
 })
 export class TypingTestComponent implements OnInit {
-
+  // this is test data
   lessons;
 
+  // if it is start timer, it will true 
   timeIsRunning = false;
+  // this is decide to timer count down or up
   timeCountIsUp = true;
+  // this is timer text
   strTime = "0:00";
+  // this is seconds
   seconds = 0;
+  //this is minutes
   minutes = 0;
+  //this is time limit witch is stop there.
   timeLimit = 0;
+  // this is 
+  timeTricker = 0;
+
   wpm = "0";
+  //whole
   lwpm = "0";
+  // mistake count
   errors = 0;
+  // it is only count current text value. 
   characters = 0;
+  accuracy = 100;
 
   speedType = 'wpm';
   typingProcess = [];
@@ -36,26 +49,41 @@ export class TypingTestComponent implements OnInit {
 
   constructor(private activatedRoute: ActivatedRoute,
               private api: ApiService) {
-    activatedRoute.params.subscribe(params => {
-      console.log(params.slug);
-      if(params.slug == "1-minute") {
+    activatedRoute.queryParams.subscribe(params => {
+      if(params['test'] == "1-minute") {
         this.minutes = 1;
         this.seconds = 0;
         this.timeLimit = 60;
         this.timeCountIsUp = false;
       }
-      if(params.slug == "3-minute") {
+      if(params['test'] == "3-minute") {
         this.minutes = 3;
         this.seconds = 0;
         this.timeLimit = 180;
         this.timeCountIsUp = false;
       }
-      if(params.slug == "5-minute") {
+      if(params['test'] == "5-minute") {
         this.minutes = 5;
         this.seconds = 0;
         this.timeLimit = 300;
         this.timeCountIsUp = false;
       }
+      if(params['test'] == "1-page") {
+        this.minutes = 0;
+        this.seconds = 0;
+        this.timeLimit = 480;
+      }
+      if(params['test'] == "2-page") {
+        this.minutes = 0;
+        this.seconds = 0;
+        this.timeLimit = 960;
+      }
+      if(params['test'] == "3-page") {
+        this.minutes = 0;
+        this.seconds = 0;
+        this.timeLimit = 1440;
+      }
+      
       // this.api.get('/api/games').subscribe(response => {
       //   console.log(response);
       // })
@@ -127,8 +155,11 @@ export class TypingTestComponent implements OnInit {
 
   onChange(wrote) {
     if(this.timeIsRunning == false) {
-      this.timer = setInterval(this.updateTimer, 1000);
+      this.startTimer();
       this.timeIsRunning = true;
+    }
+    if (wrote !== '') {
+      this.characters++;
     }
 
     const letterIndex = wrote.length - 1;
@@ -137,6 +168,7 @@ export class TypingTestComponent implements OnInit {
         this.typingProcess[this.wordIndex].status = "right";
       } else {
         this.typingProcess[this.wordIndex].status = "wrong";
+				this.errors++;
       }
 
       if (letterIndex !== -1) {
@@ -144,11 +176,15 @@ export class TypingTestComponent implements OnInit {
           this.typingProcess[this.wordIndex].letters[letterIndex] = true :
           this.typingProcess[this.wordIndex].letters[letterIndex] = false;
       }
-
-      
     } else {
       this.formGroup.controls['wrote'].setValue(wrote.substr(0, this.words[this.wordIndex].length));
     }
+    console.log(this.formGroup)
+    // Calculate Accuracy
+    this.accuracy = 100-Math.round((this.errors/this.characters)*100);
+    // Calculate WPM
+    this.wpm = this.calculateSpeed(this.characters,this.timeTricker,this.errors);
+    this.lwpm = this.wpm;
   }
 
   onSpace() {
@@ -161,11 +197,8 @@ export class TypingTestComponent implements OnInit {
     let result = document.getElementsByClassName("word-" + this.wordIndex) as HTMLCollection;
     for (let i=0; i < result.length; i++) {
       const spanElement = result.item(i) as HTMLSpanElement;
-      console.log(spanElement.offsetTop);
-      console.log('on space botton clicked scrollTop:' + spanElement.scrollTop);
       let box =  (document.getElementsByClassName("typing-box") as HTMLCollection)[0] as HTMLDivElement;
       let inp =  (document.getElementsByClassName("inp_text") as HTMLCollection)[0] as HTMLInputElement;
-      console.log('on space botton clicked scrollTop:' + box.scrollTop);
       inp.style.top = spanElement.offsetTop+'px';
       box.scrollTop = spanElement.offsetTop;
     }
@@ -211,38 +244,23 @@ export class TypingTestComponent implements OnInit {
   getbackfocus(e: any) {
     e.target.focus();
   }
-  
-  updateTimer() {
-    console.log('test 1s');
-    //console.log('test 1s');
-    //console.log('test 1s');
-    console.log(this.timeLimit > 0);
-    console.log(this.timeLimit);
-    if (this.timeLimit > 0) {	// run backwards if there is a time limit
-			this.minutes = Math.floor((this.timeLimit - this.seconds)/60);
-			this.seconds = this.timeLimit - this.seconds - (this.minutes * 60);
-			if (this.timeLimit > this.seconds) {
-        this.strTime = this.minutes + ":" + this.seconds;
-			} else {
-				this.strTime = "time out";
-			}
-		} else {
-			this.minutes = Math.floor(this.seconds/60);
-			this.seconds = this.seconds-(this.minutes*60);
-      this.strTime = this.minutes +":"+ this.seconds;
-      this.seconds +=1;
-		}
-		// if (this.seconds > 5) {
-		// 	this.win.Ext.fly("wpm").dom.innerHTML = this.calculateSpeed(this.characters, this.seconds, this.errors);
-		// 	var speedLimit = this.exercises[this.exerciseNum].speedLimit;
-		// 	if (speedLimit > 0) {
-		// 		this.win.Ext.fly("wpm").dom.innerHTML = this.win.Ext.fly("wpm").dom.innerHTML + " / " + speedLimit;
-		// 	}
-		// 	this.win.Ext.fly("pro").dom.innerHTML = (isNaN(acc) || acc == Number.POSITIVE_INFINITY || acc == Number.NEGATIVE_INFINITY)?100:acc;
-		// }
-    var acc = 100-Math.round((this.errors/this.characters)*100);
 
-    //throw new Error("Method not implemented.");
+  interval;
+
+  startTimer() {
+    this.characters = 0;
+    this.interval = setInterval(() => {
+      if (this.timeTricker <= this.timeLimit) {
+        this.minutes = Math.floor(this.timeTricker/60);
+        this.seconds = this.timeTricker-(this.minutes*60);
+        this.strTime = this.minutes +":"+ this.seconds.toString().padStart(2, '0');
+        this.timeTricker +=1;
+      } else {
+        clearInterval(this.interval);
+        this.strTime = "Time Out";
+      }
+
+    },1000)
   }
 
 }

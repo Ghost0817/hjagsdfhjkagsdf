@@ -1,3 +1,11 @@
+
+$topsubmenu-bgcolor: #f2f2f2;
+$topsubmenu-color: #2f2f2f;
+$topmenu-bgcolor: #FFFFFF;
+$topmenu-color: #2f2f2f;
+$container-bgcolor: #f2f2f2;
+$container-color: #2f2f2f;
+
 /*
 start header
 */
@@ -10,7 +18,7 @@ start header
         min-height: 25px;
         width: 100%;
         margin: auto;
-        background-color: #2F2F2F;
+        background-color: $topsubmenu-bgcolor;
         padding-top: 6px;
 
         .extra_layout{
@@ -20,11 +28,11 @@ start header
                 width: 100%;
                 display: block;
                 min-height: 25px;
-                color: #FFFFFF;
+                color: #2F2F2F;
 
                 .extra_item{
                     text-align: left;
-                    color:#FFF;
+                    color:inherit;
                     font-size:12px;
                     vertical-align:middle;
                     display:inline-block;
@@ -70,7 +78,6 @@ start header
                     .logo{
                         float:left;
                         display:block;
-                        background: url(~src/assets/css/images/logo.png) no-repeat;
                         width: 168px;
                         height: 41px;
                     }

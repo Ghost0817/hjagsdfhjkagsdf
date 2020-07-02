@@ -96,16 +96,8 @@ export class TypingTestComponent implements OnInit {
       // this.api.get('/api/categories').subscribe(response => {
       //   console.log(response);
       // })
-      // this.api.get('/api/tags').subscribe(response => {
-      //   console.log(response);
-      // })
-      // this.api.get('/api/posts').subscribe(response => {
-      //   console.log(response);
-      // })
       this.api.get('/api/studentTests').subscribe(response => {
-        console.log(response);
         this.lessons = response;
-
 
         this.testIndex = this.randomNumber(0, this.lessons.length - 1);
         this.words = this.lessons[this.testIndex].tutor.split(" ").map(word => {
@@ -168,7 +160,11 @@ export class TypingTestComponent implements OnInit {
         this.typingProcess[this.wordIndex].status = "right";
       } else {
         this.typingProcess[this.wordIndex].status = "wrong";
-				this.errors++;
+
+        this.errors++;
+        
+        // make sound
+        this.playSound();
       }
 
       if (letterIndex !== -1) {
@@ -246,6 +242,7 @@ export class TypingTestComponent implements OnInit {
   }
 
   interval;
+  playSounds = true;
 
   startTimer() {
     this.characters = 0;
@@ -262,5 +259,25 @@ export class TypingTestComponent implements OnInit {
 
     },1000)
   }
+
+
+	playSound() {
+		if (!this.playSounds) return;
+
+		if (navigator.userAgent.match(/MSIE 10/)) {
+			return
+		}
+    new Audio('../../../assets/audio/fail.mp3').play();
+  }
+  
+
+	toggleSound() {
+		if (this.playSounds) {
+			this.playSounds = false;
+		} else {
+			this.playSounds = true;
+		}
+		// sound enable xiij baigaa xeseg end xiij bn ajax call xiij bn. '/student/lesson/sound/'
+	}
 
 }

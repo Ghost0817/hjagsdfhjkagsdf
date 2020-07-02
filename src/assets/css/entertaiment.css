@@ -900,7 +900,6 @@ width: 100%;
 .main-header .tw-logo{
     float: left;
     display: block;
-    background: url(/src/assets/css/images/logo.png) no-repeat;
     width: 168px;
     height: 41px;
 }

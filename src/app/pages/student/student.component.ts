@@ -12,4 +12,13 @@ export class StudentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  getAccount(){
+    console.log(localStorage.getItem('accessToken') != null );
+    if(localStorage.getItem('accessToken') != null ){
+      return true;
+    } else {
+      return false;
+    }
+  }
+
 }

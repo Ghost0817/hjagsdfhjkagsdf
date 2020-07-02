@@ -9,7 +9,7 @@
  </g>
  <g>
   <title>Layer 1</title>
-  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="28.9375" x="4.5" stroke-width="0" stroke="#000" fill="#25c6d0">Bicheech</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="28.9375" x="110.5" stroke-width="0" stroke="#000" fill="#000000">.com</text>
+  <text id="bicheech" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="28.9375" x="4.5" stroke-width="0" stroke="#000" fill="#25c6d0">Bicheech</text>
+  <text id="dotcom" font-weight="normal" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="28.9375" x="110.5" stroke-width="0" stroke="#000" fill="#000000">.com</text>
  </g>
 </svg>

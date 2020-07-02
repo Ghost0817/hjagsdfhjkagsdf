@@ -83,7 +83,7 @@
       .typing-text{
         display: block;
         background: url(~src/assets/css/images/line.png);
-        background-size: 100% 35px;
+        background-repeat: space;
         font-family: 'courier new',Arial,Helvetica,sans-serif;
         float: left;
         position: relative;

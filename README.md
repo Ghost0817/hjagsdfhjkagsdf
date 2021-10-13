@@ -27,6 +27,29 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-ng generate module --routing=true pages/student/login
+ng generate module --routing=true pages/randompasswordgenerate
 
-ng generate component pages/student/login
+ng generate component pages/randompasswordgenerate
+
+
+ng generate module --routing=true pages/randompasswordgenerate/index
+
+ng generate component pages/randompasswordgenerate/index
+
+ng generate module --routing=true pages/randompasswordgenerate/cookiesPolicy
+
+ng generate component pages/randompasswordgenerate/cookiesPolicy
+
+ng generate module --routing=true pages/randompasswordgenerate/privacyPolicy
+
+ng generate component pages/randompasswordgenerate/privacyPolicy
+
+
+ng generate module --routing=true pages/quotes
+
+ng generate component pages/quotes
+
+
+ng generate module --routing=true pages/quotes/index
+
+ng generate component pages/quotes/index

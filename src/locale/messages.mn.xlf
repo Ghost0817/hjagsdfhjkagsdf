@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <target>Нүүр</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/randompasswordgenerate.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7735dbd959f752594cb45e3568ed05fe120c73a1" datatype="html">
+        <source>Cookies Policy</source>
+        <target>Cookies Бодлого</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/randompasswordgenerate.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
+        <source>Privacy Policy</source>
+        <target>Нууцлалын бодлого</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/randompasswordgenerate.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a52df48124999880192944600925dc2a2b630983" datatype="html">
+        <source>Cookies Policy for Random Password Generator Org</source>
+        <target>Random Password Generator Org дахь Күүкийн Бодлого</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e478be3833d9faae72971783e08fa5ce5b7e8a1" datatype="html">
+        <source>This is the Cookies Policy for Random Password Generator, accessible from https://randompasswordgenerator.org/</source>
+        <target>Энэ бол Random Password Generator-ийн күүкийн бодлого бөгөөд https://randompasswordgenerator.org/ хаягаар орж үзэх боломжтой.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19bc2d7abf278944411bc95c1f0cb95ac3f58102" datatype="html">
+        <source>What Are Cookies</source>
+        <target>Cookies гэж юу вэ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4eea330d2f6857b08c214f183b241777825a1b3" datatype="html">
+        <source>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or &apos;break&apos; certain elements of the sites functionality.</source>
+        <target>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded  to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or &apos;break&apos; certain elements of the sites functionality.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d3a742a3cf6969a85309219130f9934ed5723961" datatype="html">
+        <source>For more general information on cookies see the Wikipedia article on HTTP Cookies.</source>
+        <target>For more general information on cookies see the Wikipedia article on HTTP Cookies.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="728b1ca868941f51a43f6353d0760db8f3bbb81d" datatype="html">
+        <source>How We Use Cookies</source>
+        <target>Бид хэрхэн Cookies ашигладаг вэ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="df3362b73ebe50d0fb6f04ab733d8dd85a4ecf64" datatype="html">
+        <source>We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.</source>
+        <target>We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cf16f4ade8c2c74ac430611976729ffa8ee59dd6" datatype="html">
+        <source>Disabling Cookies</source>
+        <target>Cookies Идэвхгүй болгох</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f1672b44537fc0e3989deb9de1f63d83b28b4877" datatype="html">
+        <source>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.</source>
+        <target>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="596454425006a76e05c33050400b472dfdb133fa" datatype="html">
+        <source>The Cookies We Set</source>
+        <target>The Cookies We Set</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="415aa84480b2d4028867ed88505d01a8be15b3cc" datatype="html">
+        <source>Surveys related cookies</source>
+        <target>Surveys related cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="418c5f0251b7693a7452a870f6260abd7819fc2c" datatype="html">
+        <source>From time to time we offer user surveys and questionnaires to provide you with interesting insights, helpful tools, or to understand our user base more accurately. These surveys may use cookies to remember who has already taken part in a survey or to provide you with accurate results after you change pages.</source>
+        <target>From time to time we offer user surveys and questionnaires to provide you with interesting insights, helpful tools, or to understand our user base more accurately. These surveys may use cookies to remember who has already taken part in a survey or to provide you with accurate results after you change pages.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dcc875c9841a4427ceef4b3d7416d0f64e4eb08a" datatype="html">
+        <source>Forms related cookies</source>
+        <target>Forms related cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bddd3e7cc6f16ccd428b8ed8328e23305ede725" datatype="html">
+        <source>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</source>
+        <target>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fc2a31317c06b5200aa1efb4aee102c816be9e6" datatype="html">
+        <source>Site preferences cookies</source>
+        <target>Site preferences cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8fe05784a92087c8c3b0acf6262750fc822c0e9" datatype="html">
+        <source>In order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.</source>
+        <target>In order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a676ffdcea11597db21d29efd53db26e29d4d91a" datatype="html">
+        <source>Third Party Cookies</source>
+        <target>Third Party Cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="295ec4a30c06a9af1e8433e5b7638e7b528af06f" datatype="html">
+        <source>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site:</source>
+        <target>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1595763c93c83178a0e31b1867559352c635c01a" datatype="html">
+        <source>Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content. These cookies may track things such as how long you spend on the site or pages you visit which helps us to understand how we can improve the site for you.</source>
+        <target>Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content. These cookies may track things such as how long you spend on the site or pages you visit which helps us to understand how we can improve the site for you.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d4e2db072b9a6e5439e551f475556979cfa1d86e" datatype="html">
+        <source>From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.</source>
+        <target>From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a0bfff6fa0ac1ced83074a4a92050b2610c8ccf" datatype="html">
+        <source>The Google AdSense service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times that a given ad is shown to you.</source>
+        <target>The Google AdSense service we use to serve advertising uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times that a given ad is shown to you.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="75bbabe0602c41da8656e0b8d4412b43d582c20b" datatype="html">
+        <source>For more information on Google AdSense see the official Google AdSense privacy FAQ.</source>
+        <target>For more information on Google AdSense see the official Google AdSense privacy FAQ.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="afdf40dd29833ac781e2dc055d1f0d4c971141b7" datatype="html">
+        <source>We use adverts to offset the costs of running this site and provide funding for further development. The behavioural advertising cookies used by this site are designed to ensure that we provide you with the most relevant adverts where possible by anonymously tracking your interests and presenting similar things that may be of interest.</source>
+        <target>We use adverts to offset the costs of running this site and provide funding for further development. The behavioural advertising cookies used by this site are designed to ensure that we provide you with the most relevant adverts where possible by anonymously tracking your interests and presenting similar things that may be of interest.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="720bc460b0667d8e72e083f421d39da5648106d0" datatype="html">
+        <source>We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including Facebook, Twitter, Instagram etc, will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.</source>
+        <target>We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including Facebook, Twitter, Instagram etc, will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="194c11c19296e5aa8018bc97e5f3d086af5f9248" datatype="html">
+        <source>More Information</source>
+        <target>More Information</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f13e69b035cde5431548d7b22675e01439e45f48" datatype="html">
+        <source>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren&apos;t sure whether you need or not it&apos;s usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</source>
+        <target>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren&apos;t sure whether you need or not it&apos;s usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/cookies-policy/cookies-policy.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0868936d0beed4734756a48340ea55cbd239998c" datatype="html">
+        <source>Privacy Policy for Random Password Generator Org</source>
+        <target>Privacy Policy for Random Password Generator Org</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbf1fb84c65d963798374a350dbee1459120498f" datatype="html">
+        <source>This privacy policy has been compiled to better serve those who are concerned with how their &apos;Personally Identifiable Information&apos; (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</source>
+        <target>This privacy policy has been compiled to better serve those who are concerned with how their &apos;Personally Identifiable Information&apos; (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6510faa72934993784ba48be738588552a76e458" datatype="html">
+        <source>What personal information do we collect from the people that visit our website?</source>
+        <target>What personal information do we collect from the people that visit our website?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="767714763844f912f029f539dbed9c07e36a9f69" datatype="html">
+        <source>When ordering or registering on our site, as appropriate, you may be asked to enter your or other details to help you with your experience.</source>
+        <target>When ordering or registering on our site, as appropriate, you may be asked to enter your or other details to help you with your experience.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2410e0ebec4b483c36abd0b802dcdca9650f10b3" datatype="html">
+        <source>When do we collect information?</source>
+        <target>When do we collect information?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1f2267b3ac9492fdd21064f1b74c096bc9e459da" datatype="html">
+        <source>We may collect information from you when you or enter information on our site.</source>
+        <target>We may collect information from you when you or enter information on our site.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51ba5e9430d6b78953835f6dbacb36e6af8e4245" datatype="html">
+        <source>How do we use your information?</source>
+        <target>How do we use your information?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ebfc99a41d487c0d570b5e2a317c2162315a4ce2" datatype="html">
+        <source>We may use the information we collect from you when you register, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:</source>
+        <target>We may use the information we collect from you when you register, sign up for our newsletter, respond to a survey or marketing communication, surf the website, or use certain other site features in the following ways:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1cd73769c4a79a4c4fef4332a60d8866fe4c319d" datatype="html">
+        <source>To personalize your experience and to allow us to deliver the type of content and product offerings in which you are most interested.</source>
+        <target>To personalize your experience and to allow us to deliver the type of content and product offerings in which you are most interested.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60f12c6a07e15a50f074aad6fd830ec9fa49d15b" datatype="html">
+        <source>To improve our website in order to better serve you.</source>
+        <target>To improve our website in order to better serve you.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4c209322f3d7bd35de35deb2c85ab3db9eb593a" datatype="html">
+        <source>To allow us to better service you in responding to your customer service requests.</source>
+        <target>To allow us to better service you in responding to your customer service requests.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26e5a02e3fc89e0e58d960bab5bf0ddd4f976311" datatype="html">
+        <source>To administer a contest, promotion, survey or other site feature.</source>
+        <target>To administer a contest, promotion, survey or other site feature.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19c8a07263f32ebd2e1751b8b93e102e08527566" datatype="html">
+        <source>To ask for ratings and reviews of services or products.</source>
+        <target>To ask for ratings and reviews of services or products.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d372ec30a2601dc62405f58066dbf618a3823f3f" datatype="html">
+        <source>To follow up with them after correspondence (live chat, email or phone inquiries).</source>
+        <target>To follow up with them after correspondence (live chat, email or phone inquiries).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="342b93df59e4b736a568daba2d7c6786f61c36d6" datatype="html">
+        <source>How do we protect your information?</source>
+        <target>How do we protect your information?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a67d045f93e8b9efdd06fd128c419967b17c6ac" datatype="html">
+        <source>We do not use vulnerability scanning and/or scanning to PCI standards. We only provide articles and information. We never ask for credit card numbers. We use regular Malware Scanning.</source>
+        <target>We do not use vulnerability scanning and/or scanning to PCI standards. We only provide articles and information. We never ask for credit card numbers. We use regular Malware Scanning.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="62db08bcc9aede3ad088e349474c42c66826a238" datatype="html">
+        <source>Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive information you supply is encrypted via Secure Socket Layer (SSL) technology.</source>
+        <target>Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive information you supply is encrypted via Secure Socket Layer (SSL) technology.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7007645a4efef4c5cd5e2b653a6d4cb702540e0f" datatype="html">
+        <source>We implement a variety of security measures when a user enters, submits, or accesses their information to maintain the safety of your personal information.</source>
+        <target>We implement a variety of security measures when a user enters, submits, or accesses their information to maintain the safety of your personal information.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc7c846fce2bc9ffad13dc7995397e91618b7a35" datatype="html">
+        <source>Do we use &apos;cookies&apos;?</source>
+        <target>Do we use &apos;cookies&apos;?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="effa65bf0ada64d3978ed9ffeeb244e9aabedb1e" datatype="html">
+        <source>Yes. Cookies are small files that a site or its service provider transfers to your computer&apos;s hard drive through your Web browser (if you allow) that enables the site&apos;s or service provider&apos;s systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</source>
+        <target>Yes. Cookies are small files that a site or its service provider transfers to your computer&apos;s hard drive through your Web browser (if you allow) that enables the site&apos;s or service provider&apos;s systems to recognize your browser and capture and remember certain information. For instance, we use cookies to help us remember and process the items in your shopping cart. They are also used to help us understand your preferences based on previous or current site activity, which enables us to provide you with improved services. We also use cookies to help us compile aggregate data about site traffic and site interaction so that we can offer better site experiences and tools in the future.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="174469e069249489de680872fd9f030b6c845418" datatype="html">
+        <source>We use cookies to:</source>
+        <target>We use cookies to:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1361aa06e96990bdbef7e092189d56fc78bc9b01" datatype="html">
+        <source>Understand and save user&apos;s preferences for future visits.</source>
+        <target>Understand and save user&apos;s preferences for future visits.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4304a7dd77ce114ebfe8bc1a42716ac2e2bfef6" datatype="html">
+        <source>Keep track of advertisements.</source>
+        <target>Keep track of advertisements.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ecfafd095fee96354a49814137f86200b5cb148e" datatype="html">
+        <source>Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third-party services that track this information on our behalf.</source>
+        <target>Compile aggregate data about site traffic and site interactions in order to offer better site experiences and tools in the future. We may also use trusted third-party services that track this information on our behalf.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="115a59340744c06b89d223f09de9e22c9070ea33" datatype="html">
+        <source>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser&apos;s Help Menu to learn the correct way to modify your cookies.</source>
+        <target>You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser settings. Since browser is a little different, look at your browser&apos;s Help Menu to learn the correct way to modify your cookies.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8562537c66e2af028f94bb01c479d565d7526928" datatype="html">
+        <source>If you turn cookies off it will turn off some of the features of the site.</source>
+        <target>If you turn cookies off it will turn off some of the features of the site.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8009587ba373b69fd6c3fa1dcf78b133e243f8ec" datatype="html">
+        <source>Third-party disclosure</source>
+        <target>Third-party disclosure</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c72336c2696da99d97807d89563c260be0e7239c" datatype="html">
+        <source>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when it&apos;s release is appropriate to comply with the law, enforce our site policies, or protect ours or others&apos; rights, property or safety.</source>
+        <target>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information unless we provide users with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when it&apos;s release is appropriate to comply with the law, enforce our site policies, or protect ours or others&apos; rights, property or safety.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f461952b8144639b0c423c8af1f5b43ea5cfb7a" datatype="html">
+        <source>However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.</source>
+        <target>However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="107c644a664b97a7c682559d9072ea16162b7371" datatype="html">
+        <source>Third-party links</source>
+        <target>Third-party links</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="470f91808f629df8acf60bebdb8d75d47784a1c8" datatype="html">
+        <source>Occasionally, at our discretion, we may include or offer third-party products or services on our website. These third-party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.</source>
+        <target>Occasionally, at our discretion, we may include or offer third-party products or services on our website. These third-party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6ff2269417c76beeef011351aaba112600018888" datatype="html">
+        <source>Google</source>
+        <target>Google</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c4a0468325933bf118d816a085c962c834e82f79" datatype="html">
+        <source>Google&apos;s advertising requirements can be summed up by Google&apos;s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en</source>
+        <target>Google&apos;s advertising requirements can be summed up by Google&apos;s Advertising Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e6efc5aa5f2864f2e6af53ff874d743e2813d89" datatype="html">
+        <source>We use Google AdSense Advertising on our website.</source>
+        <target>We use Google AdSense Advertising on our website.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82df0bf30c899f050778b8c621ad7ba686873b6a" datatype="html">
+        <source>Google, as a third-party vendor, uses cookies to serve ads on our site. Google&apos;s use of the DART cookie enables it to serve ads to our users based on previous visits to our site and other sites on the Internet. Users may opt-out of the use of the DART cookie by visiting the Google Ad and Content Network privacy policy.</source>
+        <target>Google, as a third-party vendor, uses cookies to serve ads on our site. Google&apos;s use of the DART cookie enables it to serve ads to our users based on previous visits to our site and other sites on the Internet. Users may opt-out of the use of the DART cookie by visiting the Google Ad and Content Network privacy policy.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6691c630c0cef4e41753c72c90e6459e7e304ab3" datatype="html">
+        <source>We have implemented the following:</source>
+        <target>We have implemented the following:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ac0d9e1127ae798c6ae7e21d91791d51e3a3995" datatype="html">
+        <source>Remarketing with Google AdSense</source>
+        <target>Remarketing with Google AdSense</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1714db411d365dec6bb7a4a91513dd2e87144769" datatype="html">
+        <source>We, along with third-party vendors such as Google use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party identifiers together to compile data regarding user interactions with ad impressions and other ad service functions as they relate to our website.</source>
+        <target>We, along with third-party vendors such as Google use first-party cookies (such as the Google Analytics cookies) and third-party cookies (such as the DoubleClick cookie) or other third-party identifiers together to compile data regarding user interactions with ad impressions and other ad service functions as they relate to our website.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="759bc6283296017ec146cc37e6f69b046e30ee18" datatype="html">
+        <source>Opting out:</source>
+        <target>Opting out:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5901baa9cd4c632722ee4df19461390cbd9a5e8f" datatype="html">
+        <source>Users can set preferences for how Google advertises to you using the Google Ad Settings page. Alternatively, you can opt out by visiting the Network Advertising Initiative Opt Out page or by using the Google Analytics Opt Out Browser add on.</source>
+        <target>Users can set preferences for how Google advertises to you using the Google Ad Settings page. Alternatively, you can opt out by visiting the Network Advertising Initiative Opt Out page or by using the Google Analytics Opt Out Browser add on.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5869372782e6e878e92b569602003cf167f6d532" datatype="html">
+        <source>California Online Privacy Protection Act</source>
+        <target>California Online Privacy Protection Act</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38ce7855374d2b1d34977f2dcd3ae3abe8308f59" datatype="html">
+        <source>CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law&apos;s reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. - See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf</source>
+        <target>CalOPPA is the first state law in the nation to require commercial websites and online services to post a privacy policy. The law&apos;s reach stretches well beyond California to require any person or company in the United States (and conceivably the world) that operates websites collecting Personally Identifiable Information from California consumers to post a conspicuous privacy policy on its website stating exactly the information being collected and those individuals or companies with whom it is being shared. - See more at: http://consumercal.org/california-online-privacy-protection-act-caloppa/#sthash.0FdRbT51.dpuf</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="349ed74029301734df2f79be327b088ee5054a07" datatype="html">
+        <source>According to CalOPPA, we agree to the following:</source>
+        <target>According to CalOPPA, we agree to the following:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="647d150dd4b43d8e08331eadb889a14b834a89f5" datatype="html">
+        <source>Users can visit our site anonymously. Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website. Our Privacy Policy link includes the word &apos;Privacy&apos; and can easily be found on the page specified above.</source>
+        <target>Users can visit our site anonymously. Once this privacy policy is created, we will add a link to it on our home page or as a minimum, on the first significant page after entering our website. Our Privacy Policy link includes the word &apos;Privacy&apos; and can easily be found on the page specified above.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cbd58fc36b29b7ffd5d71a18bc6b49b2c3b80933" datatype="html">
+        <source>You will be notified of any Privacy Policy changes on our Privacy Policy Page</source>
+        <target>You will be notified of any Privacy Policy changes on our Privacy Policy Page</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8400696ca147ce23f05cfdb1047691d34192d826" datatype="html">
+        <source>How does our site handle Do Not Track signals?</source>
+        <target>How does our site handle Do Not Track signals?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87fd031924fd564c3de971ab65aaab57ca4e57cc" datatype="html">
+        <source>We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</source>
+        <target>We honor Do Not Track signals and Do Not Track, plant cookies, or use advertising when a Do Not Track (DNT) browser mechanism is in place.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9a868ae944a525771eae02e0cfccc9d5a0686bdf" datatype="html">
+        <source>Does our site allow third-party behavioral tracking?</source>
+        <target>Does our site allow third-party behavioral tracking?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca25eae71063a1ab793dc20f9eedebe90fd858e1" datatype="html">
+        <source>It&apos;s also important to note that we allow third-party behavioral tracking</source>
+        <target>It&apos;s also important to note that we allow third-party behavioral tracking</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eea553e4ed60ccb6b59b01b4462425cd753a02c5" datatype="html">
+        <source>COPPA (Children Online Privacy Protection Act)</source>
+        <target>COPPA (Children Online Privacy Protection Act)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7d0f2a0a9279169e1b649e809a585215562a4da" datatype="html">
+        <source>When it comes to the collection of personal information from children under the age of 13 years old, the Children&apos;s Online Privacy Protection Act (COPPA) puts parents in control. The Federal Trade Commission, United States&apos; consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children&apos;s privacy and safety online.</source>
+        <target>When it comes to the collection of personal information from children under the age of 13 years old, the Children&apos;s Online Privacy Protection Act (COPPA) puts parents in control. The Federal Trade Commission, United States&apos; consumer protection agency, enforces the COPPA Rule, which spells out what operators of websites and online services must do to protect children&apos;s privacy and safety online.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3fc4a7e13ae7aa18e25d86a69081c2b68fa291d9" datatype="html">
+        <source>We do not specifically market to children under the age of 13 years old.</source>
+        <target>We do not specifically market to children under the age of 13 years old.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8c70472d25536bdaf8015146dbc4baf85259c74f" datatype="html">
+        <source>Fair Information Practices</source>
+        <target>Fair Information Practices</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3b1d24303fd4cbf0c363a75b4df4b08ad7ae8a1" datatype="html">
+        <source>The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.</source>
+        <target>The Fair Information Practices Principles form the backbone of privacy law in the United States and the concepts they include have played a significant role in the development of data protection laws around the globe. Understanding the Fair Information Practice Principles and how they should be implemented is critical to comply with the various privacy laws that protect personal information.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ac877de416d4add30db1421c01bef1a24089700c" datatype="html">
+        <source>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:</source>
+        <target>In order to be in line with Fair Information Practices we will take the following responsive action, should a data breach occur:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12561c4b7c573be7d14dc7d516f5b1bb95fd412d" datatype="html">
+        <source>We will notify the users via in-site notification within 1 business day</source>
+        <target>We will notify the users via in-site notification within 1 business day</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95fb822c03a869285cd4cfe8570b1c48739ae9e5" datatype="html">
+        <source>We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.</source>
+        <target>We also agree to the Individual Redress Principle which requires that individuals have the right to legally pursue enforceable rights against data collectors and processors who fail to adhere to the law. This principle requires not only that individuals have enforceable rights against data users, but also that individuals have recourse to courts or government agencies to investigate and/or prosecute non-compliance by data processors.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8e1253a5fa0114b7441afc0748eeb2691397ce2" datatype="html">
+        <source>CAN SPAM Act</source>
+        <target>CAN SPAM Act</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46005071e61581e6701c8c609fdb911e58cb0cc9" datatype="html">
+        <source>The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.</source>
+        <target>The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3713aff0c860a0fcd2533dfa78fafb27467178f5" datatype="html">
+        <source>We may collect your email address in order to:</source>
+        <target>We may collect your email address in order to:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5196112dccf245eb9c5d0f75280e9e6c76829309" datatype="html">
+        <source>To be in accordance with CANSPAM, we agree to the following:</source>
+        <target>To be in accordance with CANSPAM, we agree to the following:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72d708ff64cbf2a8d25edb03fce4702074dfaa5d" datatype="html">
+        <source>Not use false or misleading subjects or email addresses.</source>
+        <target>Not use false or misleading subjects or email addresses.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8da976398d6bd5ac456df4733b2677e3c4a8f59e" datatype="html">
+        <source>Identify the message as an advertisement in some reasonable way.</source>
+        <target>Identify the message as an advertisement in some reasonable way.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57836a91fc3c7685ddd8aebb5ea4b00e2a764d0d" datatype="html">
+        <source>Include the physical address of our business or site headquarters.</source>
+        <target>Include the physical address of our business or site headquarters.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bf6a0d5e18d85e09a40f2f6bcd98c0f52b99665" datatype="html">
+        <source>Monitor third-party email marketing services for compliance, if one is used.</source>
+        <target>Monitor third-party email marketing services for compliance, if one is used.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b8d150f33c39a2ae7ca52053c0e9ef1ec242672" datatype="html">
+        <source>Honor opt-out/unsubscribe requests quickly.</source>
+        <target>Honor opt-out/unsubscribe requests quickly.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f425cc906a01aee29d590d23fd1fad7eccf66771" datatype="html">
+        <source>Allow users to unsubscribe by using the link at the bottom of each email.</source>
+        <target>Allow users to unsubscribe by using the link at the bottom of each email.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a5834a3d54b90713310b934608a6e689d6cf34a9" datatype="html">
+        <source>If at any time you would like to unsubscribe from receiving future emails, you can email us at follow the instructions at the bottom of each email and we will promptly remove you from ALL correspondence.</source>
+        <target>If at any time you would like to unsubscribe from receiving future emails, you can email us at follow the instructions at the bottom of each email and we will promptly remove you from ALL correspondence.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/privacy-policy/privacy-policy.component.html</context>
+          <context context-type="linenumber">137</context>
+       </context-group>
+      </trans-unit>
+      <trans-unit id="52d5ab6c29a0517d4e162182f13a43c85824349c" datatype="html">
+        <source>Password generator - create a secure, random passwords</source>
+        <target>Нууц үг үүсгэгч - аюулгүй байдлыг бий болгох, санамсаргүй нууц үг үүсгэх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c661a691465a16d62a91a2625f5f046aca699e38" datatype="html">
+        <source>Our online random password generator helps create a strong passwords that is as secure as possible against hacking. Create complex passwords in a click!</source>
+        <target>Манай онлайн санамсаргүй нууц үг үүсгэгч нь хакердахын эсрэг аль болох найдвартай, хүчтэй нууц үг үүсгэхэд тусалдаг. Дархад ээдрээтэй нууц үг үүсгэнэ!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fc14bae897a54bf809c8424c123f69513c7f7d7" datatype="html">
+        <source>Password Length</source>
+        <target>Нууц Үгийн Урт</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79fd989dd49feb95d65c84ca1e96b8e92e590bb0" datatype="html">
+        <source>min 3</source>
+        <target>Доод 3</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abc719c7b50da812308696618b83695eedc65ebc" datatype="html">
+        <source>max 16</source>
+        <target>Дээд 16</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6bd47ea0fa6e1c7f3271acc3724805a7b346bfd5" datatype="html">
+        <source>Include Uppercase</source>
+        <target>Том үсэг оруулах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dd104babac22b695ecfb2448ac11aa468e9c6b6" datatype="html">
+        <source>Include Lowercase</source>
+        <target>Том үсэг оруулах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69881f06c69a811ae60f9ef6f6b3c918da10ea2f" datatype="html">
+        <source>Include Numbers</source>
+        <target>Тоо оруулах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b757e8d89ff8dfa29b12cc91649ab2eed21b1552" datatype="html">
+        <source>Include Characters</source>
+        <target>Тэмдэгт оруулах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="894fb0c48441104b761930f6fd575b726a163ff0" datatype="html">
+        <source>Exclude Ambiguous</source>
+        <target>Тэмдэгт оруулах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1a3a5372aea0e2e194de7626be055a51a77a723a" datatype="html">
+        <source>Exclude Similar</source>
+        <target>Жижил зүйлийг хасах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a0b5c6f3365d1354bda6251e5b55d201751f97f" datatype="html">
+        <source>Auto-Select The Password</source>
+        <target>Нууц үгийг Автоматаар Сонгох</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c89940fdbfd421faa59222dc2389bfc07745bda7" datatype="html">
+        <source>Save My Preference</source>
+        <target>Миний Сонголтийг Хадгалах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b258b258b4cc475ceb2871305b61756b0134f4a" datatype="html">
+        <source>Generate</source>
+        <target>Үүсгэх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="37584f889855d153a106f5dffe23d21f9453c8ff" datatype="html">
+        <source>copy</source>
+        <target>хуулах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="053e81597467a642e04109eebe934c84e6a1f467" datatype="html">
+        <source>or</source>
+        <target>эсвэл</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ebcf60ab4c2532a7ca777e1c80a90dc98081d3d" datatype="html">
+        <source>send to email</source>
+        <target>И-Мэйл рүү илгээх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2027c943497d238335dceb400b9bbe1424d64b30" datatype="html">
+        <source>How can I ever remember a random password?</source>
+        <target>Би санамсаргүй нууц үгийг хэрхэн санах вэ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1663a0a4d31e2005019bcf22dad1f510ad9eae3c" datatype="html">
+        <source>Good passwords are long and random. The problem lies in the fact that people do not create long random passwords badly. That is why you need password managers such as:</source>
+        <target>Сайн нууц үгүүд нь урт ба санамсаргүй байдаг. Асуудал нь хүмүүс муухан урт санамсаргүй нууц үг үүсгэдэггүй дээр байгаа. Тийм учраас танд нууц үг удирдагч хэрэгтэй тухайлбал:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="987d4fc2509555dd03cb6500c566047a90b5d11c" datatype="html">
+        <source>LastPass remembers all your passwords, so you don&apos;t have to.</source>
+        <target>LastPass бүх нууц үгийг санадаг тул та заавал санах шаардлагагүй юм.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc60695679909ecbcb05a5bf35c5f720132870b4" datatype="html">
+        <source>Save your passwords and log in to sites with a single click.</source>
+        <target>Таны нууц үгүүдыг хадгалах ба нэг даралтаар сайтууд руу нэвтэрнэ.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="052f3f1d0763033272cbf85b9ddd47ae320c5392" datatype="html">
+        <source>Simple way to store and fill passwords and personal information.</source>
+        <target>Нууц үг бөглөх болон хувийн мэдээлэл хадгалах энгийн аргатай.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="365bf84ed3eeee32f05f1aeb1beffa6c801f2538" datatype="html">
+        <source>Creates complex passwords when you need them.</source>
+        <target>Та хэрэгтэй бол ээдрээтэй нууц үг үүсгэнэ.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eae6a821c1ec34e1b8b0a724232d863d8829762a" datatype="html">
+        <source>You’ll never need to remember or type your passwords again.</source>
+        <target>Та хэзээ ч санах эсвэл нууц үг дахин бичих шаардлагагүй болно.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f38e1a1cc04daa6ecf27402bf58647ae41474b58" datatype="html">
+        <source>Autofill forms in a second. Use your passwords wherever you go.</source>
+        <target>Секундын дотор автоматаар бөглөнө. Өөрийн нууц үгийг хаанаас ч ашиглах боломжтой.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8db253c0a29b5f46dd1ed8f52bdce7b2db5f0f06" datatype="html">
+        <source>Frequently asked questions</source>
+        <target>Түгээмэл Асуултууд</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb85ed017171562bbc00ada5b13aa522c4fbc027" datatype="html">
+        <source>How do password generators work?</source>
+        <target>Нууц үг үүсгэгч хэрхэн ажилладаг вэ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce9c6437f0b5a535424a27fb81bd1f23d514cb90" datatype="html">
+        <source>Are password generators safe?</source>
+        <target>Нууц үг үүсгэгч аюулгүй юу?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="078ecf9ff086e02b38641f8d6cdc9afd04f8bd7c" datatype="html">
+        <source>Absolutely! All passwords created using a password generator are generated locally on your computer. They are not saved and are not transmitted anywhere. No one can see the password you create. Just remember to close this page as soon as you have generated and copied your password so that someone else will not see it.</source>
+        <target>Мэдээжийн хэрэг! Нууц үг үүсгэгч ашиглан үүсгэсэн бүх нууц үгс нь таны компьютер дээр боловсорогдсон байдаг. Тэд хадгалагдахгүй бөгөөд хаашаа ч дамжуулагдчихгүй. Таны үүсгэсэн нууц үгийг хэн ч харж чадахгүй. Өөр хэн нэгэн үүнийг харж чадахгүй байлгахын тулд та энэ нууц үгээ үүсгэснийг хуулж тавьсны дараа үүнийг хаахаа мартуузай.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30ff3cd99fa71a85cd388f0c66920d147d5f30af" datatype="html">
+        <source>Why should I use a password generator?</source>
+        <target>Би яагаад нууц үг үүсгэгч ашиглах ёстой вэ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26a8b060293da153865e3116cf687e8eff033276" datatype="html">
+        <source>Because people are really bad at inventing real random passwords. People often use words or numbers that mean something to them: the name of the pet, the mother’s maiden name, the birthdays of their children, the lyrics, etc. The problem is that you get passwords that are easy to guess.</source>
+        <target>Учир нь хүмүүс бодит санамсаргүй нууц үгийг зохиоход үнэхээр муу байдаг. Хүмүүс үргэлж өөрт нь ямар нэгэн утгатай үг, тоо хэрэглэдэг: гэрийн тэжээвэр амьтны нэр, ээжийн нэр, үр хүүхдийнхээ төрсөн өдөр, дууны үгс гэх мэт. Асуудал нь та өөрөө таахад хялбар нууц үг олж авахад оршино.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d59fec5d9589484b10acc248edd70a6fa4122013" datatype="html">
+        <source>What is a Random Password Generator?</source>
+        <target>Санамсаргүй Нууц үг Үүсгэгч гэж юу вэ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c56e7f8c1bfe3ae370ddb0beb4f69d955ae0531" datatype="html">
+        <source>Random password generator is a online application that automatically creates a random, secure passwords. Reliable generators always make passwords that meet these requirements:</source>
+        <target>Санамсаргүй нууц үг үүсгэгч нь санамсаргүй ба аюулгүй нууц үгийг автоматаар үүсгэдэг онлайн програм юм. Найдвартай үүсгэгч нь эдгээр шаардлагыг хангасан нууц үгийг үргэлж хийдэг:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da1888099560a1ec22298a74b064736c0cf63c41" datatype="html">
+        <source>To be long and unique</source>
+        <target>Урт ба өвөрмөц байх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4fc1b15c0fe26828213b2d6cd05406c46e09bc50" datatype="html">
+        <source>The password must contain letters, numbers, and other special symbols. Password must be at least 12 symbols long.</source>
+        <target>Нууц үг нь үсэг, тоо болон бусад тусгай тэмдэгтүүдийг агуулсан байх ёстой. Нууц үг хамгийн багадаа 12 тэмдэгтээс бүрдэх ёстой.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dab3dc79548515e7d3f60b6fbede3d8e8bf129a4" datatype="html">
+        <source>Surely to use PRNG</source>
+        <target>PRNG ашиглах нь гарцаагүй</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45e69c86d3503d2aa89c4bf6e936b4afac743848" datatype="html">
+        <source>PRNG is a pseudo-random number generator, with the help of which a sequence of symbols, numbers and letters is formed.</source>
+        <target>PRNG бол хиймэл санамсаргүй тоон үүсгэгч бөгөөд түүний тусламжтайгаар тэмдэг, тоо, үсэгний дараалал үүсдэг.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e0cc125f22c11504dbd1286fceb876e05e8a4dc" datatype="html">
+        <source>Generate locally</source>
+        <target>Өөр дээрээ боловсорогдсон</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f9a0cc88c28de869b3f82612fda98f37b8079e6" datatype="html">
+        <source>The password must be generated locally on the computer / device of the user. Actually, our service works exactly the same way.</source>
+        <target>Нууц үг хэрэглэгчийн компьютер / төхөөрөмжид дээр локал хэлбэрээр үүсгэх ёстой. Ер нь манай үйлчилгээ яг ижилхэн ажилладаг.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0357ae3d2ed35321385b591b23b1d43a4966ed3f" datatype="html">
+        <source>Useful Internet security tips</source>
+        <target>Интернетийн аюулгүй байдлын талаар хэрэгтэй зөвлөгөө</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ba436b5237814aced9b5b6f200b8b1dc71b06a4" datatype="html">
+        <source>Attach a mobile phone</source>
+        <target>Гар утас хавсаргах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f714755ad005984d374405040cf14544a0f77b8" datatype="html">
+        <source>Be sure to link your mobile phone to your account, if the service allows. At the moment, this is the most reliable way to recover a password.</source>
+        <target>Хэрэв үйлчилгээ нь зөвшөөрдөг бол гар утсаа бүртгэлдээ холбосон эсэхээ шалгаарай. Одоогийн байдлаар энэ бол нууц үгийг сэргээх хамгийн найдвартай арга юм.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb45e84477b975ea6d64b8d25c253d068d1df26f" datatype="html">
+        <source>Include two-factor authentication</source>
+        <target>Хоёр дахь нэвтрэлтийг багтаадаг</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="026e0cf6045786f5210bc834487d41a9ee7d4913" datatype="html">
+        <source>In case the service supports this option, connect it to further protect your account.</source>
+        <target>Хэрэв үйлчилгээ нь энэ сонголтыг дэмжиж байвал, дансаа хамгаалахын тулд холбоно уу.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fcf6617b23b418d260ce275d1b0eda5f300c10e" datatype="html">
+        <source>Avoid simple passwords</source>
+        <target>Энгийн нууц үгнээс зайлсхийх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4d197625f3b7196fac82cf3cc30d56a46d02714" datatype="html">
+        <source>Avoid short and popular passwords that consist of sequences on the keyboard (qwerty) or easily alternate (1q2w3e)</source>
+        <target>Гар дээрх дараалал (qwerty) эсвэл хялбархан орлуулах (1q2w3e) гэсэн богино, түгээмэл нууц үгнээс зайлсхийх хэрэгтэй.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="531f44ad1c1be7bb7bfde956c7e29b978bb4f6d9" datatype="html">
+        <source>Do not use personal data in the password</source>
+        <target>Нууц үгэндээ хувийн мэдээллийг бүү ашигла</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68674ce8e9aa1226cedb1b1072cddfb2e865a324" datatype="html">
+        <source>Never use the password names of your beloved and acquaintances, phone numbers and addresses, birthdays, licenses numbers, and other personal information.</source>
+        <target>Нууц үгэнд хайртай, танил хүмүүсийн нэр, утасны дугаар, хаяг, төрсөн өдөр, лицензийн дугаар болон бусад хувийн мэдээллийг хэзээ ч бүү ашиглаарай.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de985e1a90b4b93d72ffe8ea21dc49e97c1a4da1" datatype="html">
+        <source>Use unique passwords</source>
+        <target>Өвөрмөц нууц үг ашиглах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1afd7125f10e49cfbf176ce99703717330bbdbb" datatype="html">
+        <source>Create a unique password for each of your accounts and do not use it when registering with other sites.</source>
+        <target>Таны бүртгэл бүр дээр дахин давташгүй нууц үг зохиож, бусад сайтад бүртгүүлэхдээ үүнийг бүү ашиглаарай.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65ff787ce3c14f678452f4411f2d80a75268a1ef" datatype="html">
+        <source>Change the password periodically</source>
+        <target>Нууц үгээ үе үе өөрчлөх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3689a2666b2c314e218685ee4ae754ca3ac41a0" datatype="html">
+        <source>Take the habit of changing your password for critically important data at least once every three months.</source>
+        <target>Маш чухал мэдээлэлд зориулж нууц үгээ гурван сард дор хаяж нэг удаа өөрчлөх зуршилтай байхыг зөвлөж байна.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="03208939cc0c310754c791f90b47437869c3b9fd" datatype="html">
+        <source>Use antivirus software</source>
+        <target>Вирусны эсрэг програм хангамж ашиглах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5a2ef7133f0068474e27f76d299be8fab3848d9" datatype="html">
+        <source>Use the switched on antivirus on your computer and do not prevent it from updating.</source>
+        <target>Компьютер дээрээ ассан антивирусыг ашиглах бөгөөд шинэчлэлээс урьдчилан сэргийлэх хэрэггүй.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d1b77b0f7214c6a70f06a421899025f17c997d00" datatype="html">
+        <source>Do not allow browsers to save passwords</source>
+        <target>Хөтөчүүдэд нууц үг хадгалахыг зөвшөөрөхгүй байх</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57013d167f90ff43167809e539f5ba160f694c92" datatype="html">
+        <source>Do not use auto save in browsers, because saved passwords in the browser are easy to identify. In addition, a person who uses your device will also have access to your account.</source>
+        <target>Учир нь хөтөчид хадгалсан нууц үгийг тодорхойлоход хялбар байдаг тул хөтөч дээр автоматаар хадгалах горимыг бүү ашиглаарай. Үүнээс гадна, таны төхөөрөмжийг ашигладаг хүн таны дансанд нэвтрэх эрхтэй болно.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74dd1497a23477b0708f1a47c4be50ad2dbb6491" datatype="html">
+        <source>Fake pages of popular sites</source>
+        <target>Алдартай сайтуудын хуурамч хуудас</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d122a817c8d597fb157cacf7d608729382a4e2f5" datatype="html">
+        <source>Be careful when entering your login and password on the sites, look at the address and make sure that this is the very site. At the beginning of the address you will see a confirmation that you are in a secure connection https: //.</source>
+        <target>Нэвтрэх нэр, нууц үгээ сайтууд дээр оруулахдаа анхааралтай хандаж, хаягийг нь шалгаад энэ сайт мөн эсэхийг шалгаарай. Хаягны эхэнд та аюулгүй холболт байгаа гэдгээ https: // харж баталгаажуулна.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9b4bd954c66271525bbc12ee9bfd23312739e1a" datatype="html">
+        <source>Use an SSL connection</source>
+        <target>SSL холболтыг ашиглах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3eb42aa63fda04deab16a9d0a187fc7a69630056" datatype="html">
+        <source>Do not pass important information to unprotected HTTP or FTP protocols, because information in these connections can be easily intercepted.</source>
+        <target>Хамгаалагдаагүй HTTP эсвэл FTP протоколуудад чухал мэдээллийг бүү дамжуулж байгаарай, учир нь эдгээр холболтууд дахь мэдээллийг хялбархан тасалдуулж болно.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b87223e07a8ae739484b294992b13e99fa9095d" datatype="html">
+        <source>Use the incognito mode in your browser</source>
+        <target>Өөрийн вэб хөтчид нууцлалын горимыг ашиглах</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94e139524f87d32b85117ae7824eaf10a54312c9" datatype="html">
+        <source>When you visit important for you sites, it is advisable to do it in incognito mode, so you can protect yourself from unwanted cookies and tracking.</source>
+        <target>Таны хувьд чухал сайтууд руу зочлох үед үүнийг нууцлалын горимоор хийхийг зөвлөж байна, ингэснээр та хүсээгүй cookie-нүүд, хянахаас өөрийгөө хамгаалах боломжтой.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc5f98ccb4369bc7d0fcfed85703ac8ee1c65610" datatype="html">
+        <source>Be more careful with the services of capturing the picture from the screen</source>
+        <target>Дэлгэцээс зургийг авдаг үйлчилгээнээс илүү болгоомжилох хэрэгтэй</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbba0755bf0752e9e33297adccbac226a828e3f4" datatype="html">
+        <source>Very often, all users of the Internet have access to screenshots made through such services.</source>
+        <target>Маш олон удаа интернетийн бүх хэрэглэгчид ийм үйлчилгээгээр дамжуулан дэлгэцийн зураг авах боломжтой байдаг.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">240</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

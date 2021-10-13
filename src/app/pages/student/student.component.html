@@ -5,18 +5,18 @@
                 <div class="extra_item text pull-left">free online typing tutor.</div>
 
                 <a class="extra_item text topRetrievedMenu">
-                    <i class="fa fa-bars"></i>
+                    <mat-icon aria-hidden="false" aria-label="Menu">menu</mat-icon>
                 </a>
                 <div id="TopExtraNav" class="pull-right">
                     
-                    <a href="/student/login" class="extra_item text">Preferences</a>
+                    <a routerLink="/student/login" routerLinkActive="active" class="extra_item text">Preferences</a>
                     <a class="extra_item text">|</a>
 
                         <div *ngIf="getAccount() == true; then thenBlock else elseBlock"></div>
-                        <ng-template #thenBlock><a href="/student/login" class="extra_item text">logout</a></ng-template>
+                        <ng-template #thenBlock><a routerLink="/student/logout" routerLinkActive="active" class="extra_item text">logout</a></ng-template>
                         <ng-template #elseBlock>
-                            <a href="/student/login" class="extra_item text">Login</a>
-                            <a href="/student/signup/" class="extra_item text">Sign up</a>
+                            <a routerLink="/student/login" routerLinkActive="active" class="extra_item text">Login</a>
+                            <a routerLink="/student/signup/" routerLinkActive="active" class="extra_item text">Sign up</a>
                         </ng-template>
 
                 </div>
@@ -29,7 +29,7 @@
 
                 <div class="logo-box">
 
-                    <a href="/" title="Bicheech">
+                    <a routerLink="/" routerLinkActive="active" title="Bicheech">
                         <div class="logo">
                             <svg width="168" height="41" xmlns="http://www.w3.org/2000/svg">
                                 <g>
@@ -46,7 +46,7 @@
                         </div>
                     </a>
                     <a class="extra_item text mainRetrievedMenu">
-                        <i class="fa fa-bars"></i>
+                        <mat-icon aria-hidden="false" aria-label="Menu">menu</mat-icon>
                     </a>
                     <div id="MainNav" class="sf-menu">
                         <ul>
@@ -72,5 +72,7 @@
         </div>
     </div>
 </header>
+
+<app-b-button type="button"></app-b-button>
 
 <router-outlet></router-outlet>

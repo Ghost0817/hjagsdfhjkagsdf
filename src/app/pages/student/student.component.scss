@@ -14,15 +14,15 @@ start header
     display:block;
 
     .header-links{
-        display: inline-table;
+        display: block;
         min-height: 25px;
         width: 100%;
         margin: auto;
         background-color: $topsubmenu-bgcolor;
-        padding-top: 6px;
 
         .extra_layout{
             display:block;
+            padding-top: 6px;
 
             .extra_box{
                 width: 100%;
@@ -37,7 +37,16 @@ start header
                     vertical-align:middle;
                     display:inline-block;
                     font-weight: bold;
-                    padding: 7px 3px 6px 3px;
+                    padding: 3px;
+
+                    mat-icon{
+                        width: auto;
+                        height: auto;
+                        font-size: 14px;
+                        border: 1px solid #25c6d0;
+                        border-radius: 3px;
+                        color:#25C6D0;
+                    }
                 }
                 a.extra_item:hover{
                     color:#25C6D0;
@@ -214,10 +223,13 @@ end header
                         float: right;
                         margin-right: 5px;
                         margin-top: 2px;
-                        i {
+
+                        mat-icon{
                             border: 1px solid #25c6d0;
                             border-radius: 3px;
-                            padding: 10px;
+                            padding: 5px;
+                            height: auto;
+                            width: auto;
                         }
                     }
                     .sf-menu {

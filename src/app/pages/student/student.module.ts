@@ -6,7 +6,7 @@ import { StudentComponent } from './student.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from 'src/app/shared/shared.module';
-
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
   declarations: [StudentComponent],
@@ -15,7 +15,9 @@ import { SharedModule } from 'src/app/shared/shared.module';
     FormsModule,
     RouterModule,
     SharedModule,
-    StudentRoutingModule
-  ]
+    StudentRoutingModule,
+    MatIconModule
+  ],
+  schemas: []
 })
 export class StudentModule { }

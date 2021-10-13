@@ -1,0 +1,243 @@
+
+<div class="generator">
+    <div class="generator-top">
+        <h1 i18n>Password generator - create a secure, random passwords</h1>
+        <br>
+        <p i18n>Our online random password generator helps create a strong passwords that is as secure as possible against hacking. Create complex passwords in a click!</p>
+        <div class="generator-top-inner">
+                <div class="password-options">
+                    <p class="password-length-caption" i18n>Password Length</p>
+                
+                    <div class="password-length-items">
+                        <div>
+                            <input id="opt_random_min" name="opt_random_min" 
+                            type="number" class="option" min="3" step="1" max="15" value="{{random_min}}"
+                            (ngModelChange)="opt_random_min()">
+                            <span i18n>min 3</span>
+                        </div>
+                        <div class="mdash">—</div>
+                        <div>								
+                            <input id="opt_random_max" name="opt_random_max" type="number" 
+                            class="option" min="4" step="1" max="16" value="{{random_max}}" (ngModelChange)="opt_random_max()">
+                            <span i18n>max 16</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="password-options">
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_uppercase" name="opt_uppercase" pattern="A-Z" type="checkbox" checked="checked">
+                        <label for="opt_uppercase"><span i18n>Include Uppercase</span>: ABCDE...</label>
+                        <span></span>
+                    </fieldset>
+                    
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_lowercase" name="opt_lowercase" type="checkbox" checked="checked">
+                        <label for="opt_lowercase"><span i18n>Include Lowercase</span>: abcde...</label>
+                        <span></span>
+                    </fieldset>
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_numbers" name="opt_numbers" type="checkbox" checked="checked">
+                        <label for="opt_numbers"><span i18n>Include Numbers</span>: 12345...</label>
+                        <span></span>
+                    </fieldset>
+                    
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_symbols" name="opt_symbols" type="checkbox" checked="checked">
+                        <label for="opt_symbols"><span i18n>Include Characters</span>: @#$%...</label>
+                        <span></span>
+                    </fieldset>				
+                </div>
+
+                <div class="password-options">
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_no_amb" name="opt_no_amb" type="checkbox">
+                        <label for="opt_no_amb"><span i18n>Exclude Ambiguous</span>: {{ '{' }} {{ '}' }} [] () /\ ' " ` ~ , ; : . &lt; &gt;</label>
+                        <span></span>
+                    </fieldset>
+                    
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_no_similar" name="opt_no_similar" type="checkbox" checked="checked">
+                        <label for="opt_no_similar"><span i18n>Exclude Similar</span>: i,l,1,L,o,0,O</label>
+                        <span></span>
+                    </fieldset>
+                    
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_autoselect" name="opt_autoselect" type="checkbox">
+                        <label for="opt_autoselect" i18n>Auto-Select The Password</label>
+                        <span></span>
+                    </fieldset>
+                    
+                    <fieldset class="custom-checkbox">
+                        <input id="opt_save" name="opt_save" type="checkbox" checked="checked">
+                        <label for="opt_save" class="yellow" i18n>Save My Preference</label>
+                        <span></span>
+                    </fieldset>
+                </div>
+            </div>
+    </div>
+    <div class="generator-middle">
+        <div class="btn-generate-container">
+            <button class="btn-generate" (click)='_generate()' i18n>Generate</button>
+        </div>
+    </div>
+    <div class="generator-bottom">
+        <div class="btn-generate-container">
+            <button class="btn-generate" (click)='_generate()' i18n>Generate</button>
+        </div>
+        <div class="pass-container">
+            <input id="password" type="text" value="{{_password}}" placeholder="Your new password..." i18n-placeholder="Your new password...">
+            <button id="btnCopy" i18n (click)="copyPass()">copy</button>
+            <span i18n>or</span> 
+            <button id="btnSend" i18n (click)="sendPass()">send to email</button>
+        </div>
+    </div>
+</div>
+
+<section class="article centered">
+    <h2 id="What-is-the-best-password-generator" i18n>How can I ever remember a random password?</h2>
+    <p class="textcenter" i18n>Good passwords are long and random. The problem lies in the fact that people do not create long random passwords badly. That is why you need password managers such as:</p>
+    <ul class="list-with-imgs">
+        <li>
+            <div class="pd-15">
+                <a href="https://www.lastpass.com/"><img src="assets/rpg/images/lastpass.png" alt="LastPass"></a>
+                <h3><a href="https://www.lastpass.com/">LastPass</a></h3>
+                <p i18n>LastPass remembers all your passwords, so you don't have to.</p>
+            </div>
+        </li>
+        <li>
+            <div class="pd-15">
+                <a href="https://1password.com/"><img src="assets/rpg/images/1Password.png" alt="1Password"></a>
+                <h3><a href="https://1password.com/">1Password</a></h3>
+                <p i18n>Save your passwords and log in to sites with a single click.</p>
+            </div>
+        </li>
+        <li>
+            <div class="pd-15">
+                <a href="https://www.dashlane.com/"><img src="assets/rpg/images/Dashlane.png" alt="Dashlane"></a>
+                <h3><a href="https://www.dashlane.com/">Dashlane</a></h3>
+                <p i18n>Simple way to store and fill passwords and personal information.</p>
+            </div>
+        </li>
+    </ul>
+        
+    <ul class="list-with-imgs">
+        <li>
+            <div class="pd-15">
+                <a href="https://my.norton.com/extspa/passwordmanager"><img src="assets/rpg/images/Norton.png" alt="Norton"></a>
+                <h3><a href="https://my.norton.com/extspa/passwordmanager">Norton</a></h3>
+                <p i18n>Creates complex passwords when you need them.</p>
+            </div>
+        </li>
+        <li>
+            <div class="pd-15">
+                <a href="https://www.roboform.com/"><img src="assets/rpg/images/Roboform.png" alt="Roboform"></a>
+                <h3><a href="https://www.roboform.com/">Roboform</a></h3>
+                <p i18n>You’ll never need to remember or type your passwords again.</p>
+                
+            </div>
+        </li>
+        <li>
+            <div class="pd-15">
+                <a href="https://www.stickypassword.com/"><img src="assets/rpg/images/Sticky Password.png" alt="Sticky Password"></a>
+                <h3><a href="https://www.stickypassword.com/">Sticky Password</a></h3>
+                <p i18n>Autofill forms in a second. Use your passwords wherever you go.</p>
+                
+            </div>
+        </li>	
+    </ul>
+        
+</section>
+<section class="article">
+    <img class="pd-15" src="assets/rpg/images/icons8-faq-64.png" alt="faq">
+    <h2 id="Password-generator-FAQs" i18n>Frequently asked questions</h2>				
+    <h3 i18n>How do password generators work?</h3>
+    <p>All passwords are generated on your device / browser (here Javascript source code and tutorial), they are unique and are created once and only for you. We do not have access to them, we do not keep records and do not save what generators create. Also you can use our extensions for <a href="https://chrome.google.com/webstore/detail/random-password-generator/nglmkmdjopoappmoalnapgfefblkhhke">Google Chrome</a> and <a href="https://addons.mozilla.org/en-US/firefox/addon/random-password-generator-org/">Mozilla Firefox</a>. Also you can download the app from the <a href="https://www.microsoft.com/en-us/p/strong-random-password-generator/9nfj7dwk0dtl">Microsoft Store</a>.</p>
+    
+    <h3 i18n>Are password generators safe?</h3>
+    <p i18n>Absolutely! All passwords created using a password generator are generated locally on your computer. They are not saved and are not transmitted anywhere. No one can see the password you create. Just remember to close this page as soon as you have generated and copied your password so that someone else will not see it.</p>
+    
+    <h3 i18n>Why should I use a password generator?</h3>
+    <p i18n>Because people are really bad at inventing real random passwords. People often use words or numbers that mean something to them: the name of the pet, the mother’s maiden name, the birthdays of their children, the lyrics, etc. The problem is that you get passwords that are easy to guess.</p>
+</section>
+<section class="article centered">
+    <h2 id="What-is-the-best-password-generator" i18n>What is a Random Password Generator?</h2>
+    <p class="textcenter" i18n>Random password generator is a online application that automatically creates a random, secure passwords. Reliable generators always make passwords that meet these requirements:</p>
+    <ul class="list-with-imgs">
+        <li>
+            <div class="pd-15">
+                <img src="assets/rpg/images/protect.png">
+                <h3 i18n>To be long and unique</h3>
+                <p i18n>The password must contain letters, numbers, and other special symbols. Password must be at least 12 symbols long.</p>
+            </div>
+        </li>
+        <li>
+            <div class="pd-15">
+                <img src="assets/rpg/images/quick.png">
+                <h3 i18n>Surely to use PRNG</h3>
+                <p i18n>PRNG is a pseudo-random number generator, with the help of which a sequence of symbols, numbers and letters is formed.</p>
+            </div>
+        </li>
+        <li>
+            <div class="pd-15">
+                <img src="assets/rpg/images/monitor.png">
+                <h3 i18n>Generate locally</h3>
+                <p i18n>The password must be generated locally on the computer / device of the user. Actually, our service works exactly the same way.</p>
+            </div>
+        </li>
+    </ul>
+</section>
+<section class="article">
+    <img class="pd-15" src="assets/rpg/images/icons8-hint-64.png" alt="tips">
+    <h2 id="Internet-safety-tips" i18n>Useful Internet security tips</h2>
+    <ul>
+        <li>
+            <h3 id="Attach-a-mobile-phone" i18n>Attach a mobile phone</h3>
+            <p i18n>Be sure to link your mobile phone to your account, if the service allows. At the moment, this is the most reliable way to recover a password.</p>
+        </li>
+        <li>
+            <h3 id="Include-two-factor-authentication" i18n>Include two-factor authentication</h3>
+            <p i18n>In case the service supports this option, connect it to further protect your account.</p>
+        </li>
+        <li>
+            <h3 id="Avoid-simple-passwords" i18n>Avoid simple passwords</h3>
+            <p i18n>Avoid short and popular passwords that consist of sequences on the keyboard (qwerty) or easily alternate (1q2w3e)</p>
+        </li>
+        <li>
+            <h3 id="Do-not-use-personal-data-in-the-password" i18n>Do not use personal data in the password</h3>
+            <p i18n>Never use the password names of your beloved and acquaintances, phone numbers and addresses, birthdays, licenses numbers, and other personal information.</p>
+        </li>
+        <li>
+            <h3 id="Use-unique-passwords" i18n>Use unique passwords</h3>
+            <p i18n>Create a unique password for each of your accounts and do not use it when registering with other sites.</p>
+        </li>
+        <li>
+            <h3 id="Change-the-password-periodically" i18n>Change the password periodically</h3>
+            <p i18n>Take the habit of changing your password for critically important data at least once every three months.</p>
+        </li>
+        <li>
+            <h3 id="Use-antivirus-software" i18n>Use antivirus software</h3>
+            <p i18n>Use the switched on antivirus on your computer and do not prevent it from updating.</p>
+        </li>
+        <li>
+            <h3 id="Do-not-allow-browsers-to-save-passwords" i18n>Do not allow browsers to save passwords</h3>
+            <p i18n>Do not use auto save in browsers, because saved passwords in the browser are easy to identify. In addition, a person who uses your device will also have access to your account.</p>
+        </li>
+        <li>
+            <h3 id="Fake-pages-of-popular-sites" i18n>Fake pages of popular sites</h3>
+            <p i18n>Be careful when entering your login and password on the sites, look at the address and make sure that this is the very site. At the beginning of the address you will see a confirmation that you are in a secure connection https: //.</p>
+        </li>
+        <li>
+            <h3 id="Use-an-SSL-connection" i18n>Use an SSL connection</h3>
+            <p i18n>Do not pass important information to unprotected HTTP or FTP protocols, because information in these connections can be easily intercepted.</p>
+        </li>
+        <li>
+            <h3 id="Use-the-incognito-mode-in-your-browser" i18n>Use the incognito mode in your browser</h3>
+            <p i18n>When you visit important for you sites, it is advisable to do it in incognito mode, so you can protect yourself from unwanted cookies and tracking.</p>
+        </li>
+        <li>
+            <h3 id="Be-more-careful-with-the-services-of-capturing-the-picture-from-the-screen" i18n>Be more careful with the services of capturing the picture from the screen</h3>
+            <p i18n>Very often, all users of the Internet have access to screenshots made through such services.</p>
+        </li>					
+    </ul>
+</section>

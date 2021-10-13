@@ -20,6 +20,14 @@ const routes: Routes = [{
   path: 'teacher',
   loadChildren: () => import('./pages/teacher/teacher.module').then(m => m.TeacherModule),
   canActivate: [AuthGuard]
+},
+{
+  path: 'quotes',
+  loadChildren: () => import('./pages/quotes/quotes.module').then(m => m.QuotesModule)
+},
+{
+  path: 'randompasswordgenerate',
+  loadChildren: () => import('./pages/randompasswordgenerate/randompasswordgenerate.module').then(m => m.RandompasswordgenerateModule)
 }];
 
 @NgModule({

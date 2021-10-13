@@ -27,11 +27,11 @@ const routes: Routes = [{
   }, {
     path: 'tests',
     loadChildren: () => import('./tests/tests.module').then(m => m.TestsModule),
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   }, {
     path: 'typing-test',
     loadChildren: () => import('./typing-test/typing-test.module').then(m => m.TypingTestModule),
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   }, {
     path: 'login',
     loadChildren: () => import('./login/login.module').then(m => m.LoginModule),

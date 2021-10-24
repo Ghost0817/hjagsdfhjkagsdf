@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7735dbd959f752594cb45e3568ed05fe120c73a1" datatype="html">
+        <source>Cookies Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/randompasswordgenerate.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b8d10cd55fae4e4ad4f87d28e18251694f159bf7" datatype="html">
+        <source>Privacy Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/randompasswordgenerate.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52d5ab6c29a0517d4e162182f13a43c85824349c" datatype="html">
+        <source>Password generator - create a secure, random passwords</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c661a691465a16d62a91a2625f5f046aca699e38" datatype="html">
+        <source>Our online random password generator helps create a strong passwords that is as secure as possible against hacking. Create complex passwords in a click!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5fc14bae897a54bf809c8424c123f69513c7f7d7" datatype="html">
+        <source>Password Length</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="79fd989dd49feb95d65c84ca1e96b8e92e590bb0" datatype="html">
+        <source>min 3</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abc719c7b50da812308696618b83695eedc65ebc" datatype="html">
+        <source>max 16</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6bd47ea0fa6e1c7f3271acc3724805a7b346bfd5" datatype="html">
+        <source>Include Uppercase</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dd104babac22b695ecfb2448ac11aa468e9c6b6" datatype="html">
+        <source>Include Lowercase</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="69881f06c69a811ae60f9ef6f6b3c918da10ea2f" datatype="html">
+        <source>Include Numbers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b757e8d89ff8dfa29b12cc91649ab2eed21b1552" datatype="html">
+        <source>Include Characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="894fb0c48441104b761930f6fd575b726a163ff0" datatype="html">
+        <source>Exclude Ambiguous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1a3a5372aea0e2e194de7626be055a51a77a723a" datatype="html">
+        <source>Exclude Similar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a0b5c6f3365d1354bda6251e5b55d201751f97f" datatype="html">
+        <source>Auto-Select The Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c89940fdbfd421faa59222dc2389bfc07745bda7" datatype="html">
+        <source>Save My Preference</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b258b258b4cc475ceb2871305b61756b0134f4a" datatype="html">
+        <source>Generate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="37584f889855d153a106f5dffe23d21f9453c8ff" datatype="html">
+        <source>copy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="053e81597467a642e04109eebe934c84e6a1f467" datatype="html">
+        <source>or</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ebcf60ab4c2532a7ca777e1c80a90dc98081d3d" datatype="html">
+        <source>send to email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2027c943497d238335dceb400b9bbe1424d64b30" datatype="html">
+        <source>How can I ever remember a random password?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1663a0a4d31e2005019bcf22dad1f510ad9eae3c" datatype="html">
+        <source>Good passwords are long and random. The problem lies in the fact that people do not create long random passwords badly. That is why you need password managers such as:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="987d4fc2509555dd03cb6500c566047a90b5d11c" datatype="html">
+        <source>LastPass remembers all your passwords, so you don&apos;t have to.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc60695679909ecbcb05a5bf35c5f720132870b4" datatype="html">
+        <source>Save your passwords and log in to sites with a single click.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="052f3f1d0763033272cbf85b9ddd47ae320c5392" datatype="html">
+        <source>Simple way to store and fill passwords and personal information.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="365bf84ed3eeee32f05f1aeb1beffa6c801f2538" datatype="html">
+        <source>Creates complex passwords when you need them.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eae6a821c1ec34e1b8b0a724232d863d8829762a" datatype="html">
+        <source>You’ll never need to remember or type your passwords again.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f38e1a1cc04daa6ecf27402bf58647ae41474b58" datatype="html">
+        <source>Autofill forms in a second. Use your passwords wherever you go.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">144</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8db253c0a29b5f46dd1ed8f52bdce7b2db5f0f06" datatype="html">
+        <source>Frequently asked questions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fb85ed017171562bbc00ada5b13aa522c4fbc027" datatype="html">
+        <source>How do password generators work?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ce9c6437f0b5a535424a27fb81bd1f23d514cb90" datatype="html">
+        <source>Are password generators safe?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="078ecf9ff086e02b38641f8d6cdc9afd04f8bd7c" datatype="html">
+        <source>Absolutely! All passwords created using a password generator are generated locally on your computer. They are not saved and are not transmitted anywhere. No one can see the password you create. Just remember to close this page as soon as you have generated and copied your password so that someone else will not see it.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30ff3cd99fa71a85cd388f0c66920d147d5f30af" datatype="html">
+        <source>Why should I use a password generator?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26a8b060293da153865e3116cf687e8eff033276" datatype="html">
+        <source>Because people are really bad at inventing real random passwords. People often use words or numbers that mean something to them: the name of the pet, the mother’s maiden name, the birthdays of their children, the lyrics, etc. The problem is that you get passwords that are easy to guess.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d59fec5d9589484b10acc248edd70a6fa4122013" datatype="html">
+        <source>What is a Random Password Generator?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c56e7f8c1bfe3ae370ddb0beb4f69d955ae0531" datatype="html">
+        <source>Random password generator is a online application that automatically creates a random, secure passwords. Reliable generators always make passwords that meet these requirements:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da1888099560a1ec22298a74b064736c0cf63c41" datatype="html">
+        <source>To be long and unique</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4fc1b15c0fe26828213b2d6cd05406c46e09bc50" datatype="html">
+        <source>The password must contain letters, numbers, and other special symbols. Password must be at least 12 symbols long.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dab3dc79548515e7d3f60b6fbede3d8e8bf129a4" datatype="html">
+        <source>Surely to use PRNG</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="45e69c86d3503d2aa89c4bf6e936b4afac743848" datatype="html">
+        <source>PRNG is a pseudo-random number generator, with the help of which a sequence of symbols, numbers and letters is formed.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e0cc125f22c11504dbd1286fceb876e05e8a4dc" datatype="html">
+        <source>Generate locally</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f9a0cc88c28de869b3f82612fda98f37b8079e6" datatype="html">
+        <source>The password must be generated locally on the computer / device of the user. Actually, our service works exactly the same way.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0357ae3d2ed35321385b591b23b1d43a4966ed3f" datatype="html">
+        <source>Useful Internet security tips</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2ba436b5237814aced9b5b6f200b8b1dc71b06a4" datatype="html">
+        <source>Attach a mobile phone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f714755ad005984d374405040cf14544a0f77b8" datatype="html">
+        <source>Be sure to link your mobile phone to your account, if the service allows. At the moment, this is the most reliable way to recover a password.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb45e84477b975ea6d64b8d25c253d068d1df26f" datatype="html">
+        <source>Include two-factor authentication</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="026e0cf6045786f5210bc834487d41a9ee7d4913" datatype="html">
+        <source>In case the service supports this option, connect it to further protect your account.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8fcf6617b23b418d260ce275d1b0eda5f300c10e" datatype="html">
+        <source>Avoid simple passwords</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">203</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f4d197625f3b7196fac82cf3cc30d56a46d02714" datatype="html">
+        <source>Avoid short and popular passwords that consist of sequences on the keyboard (qwerty) or easily alternate (1q2w3e)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="531f44ad1c1be7bb7bfde956c7e29b978bb4f6d9" datatype="html">
+        <source>Do not use personal data in the password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68674ce8e9aa1226cedb1b1072cddfb2e865a324" datatype="html">
+        <source>Never use the password names of your beloved and acquaintances, phone numbers and addresses, birthdays, licenses numbers, and other personal information.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de985e1a90b4b93d72ffe8ea21dc49e97c1a4da1" datatype="html">
+        <source>Use unique passwords</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1afd7125f10e49cfbf176ce99703717330bbdbb" datatype="html">
+        <source>Create a unique password for each of your accounts and do not use it when registering with other sites.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65ff787ce3c14f678452f4411f2d80a75268a1ef" datatype="html">
+        <source>Change the password periodically</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b3689a2666b2c314e218685ee4ae754ca3ac41a0" datatype="html">
+        <source>Take the habit of changing your password for critically important data at least once every three months.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="03208939cc0c310754c791f90b47437869c3b9fd" datatype="html">
+        <source>Use antivirus software</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5a2ef7133f0068474e27f76d299be8fab3848d9" datatype="html">
+        <source>Use the switched on antivirus on your computer and do not prevent it from updating.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d1b77b0f7214c6a70f06a421899025f17c997d00" datatype="html">
+        <source>Do not allow browsers to save passwords</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="57013d167f90ff43167809e539f5ba160f694c92" datatype="html">
+        <source>Do not use auto save in browsers, because saved passwords in the browser are easy to identify. In addition, a person who uses your device will also have access to your account.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74dd1497a23477b0708f1a47c4be50ad2dbb6491" datatype="html">
+        <source>Fake pages of popular sites</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d122a817c8d597fb157cacf7d608729382a4e2f5" datatype="html">
+        <source>Be careful when entering your login and password on the sites, look at the address and make sure that this is the very site. At the beginning of the address you will see a confirmation that you are in a secure connection https: //.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d9b4bd954c66271525bbc12ee9bfd23312739e1a" datatype="html">
+        <source>Use an SSL connection</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3eb42aa63fda04deab16a9d0a187fc7a69630056" datatype="html">
+        <source>Do not pass important information to unprotected HTTP or FTP protocols, because information in these connections can be easily intercepted.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b87223e07a8ae739484b294992b13e99fa9095d" datatype="html">
+        <source>Use the incognito mode in your browser</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="94e139524f87d32b85117ae7824eaf10a54312c9" datatype="html">
+        <source>When you visit important for you sites, it is advisable to do it in incognito mode, so you can protect yourself from unwanted cookies and tracking.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc5f98ccb4369bc7d0fcfed85703ac8ee1c65610" datatype="html">
+        <source>Be more careful with the services of capturing the picture from the screen</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbba0755bf0752e9e33297adccbac226a828e3f4" datatype="html">
+        <source>Very often, all users of the Internet have access to screenshots made through such services.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/randompasswordgenerate/index/index.component.html</context>
+          <context context-type="linenumber">240</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

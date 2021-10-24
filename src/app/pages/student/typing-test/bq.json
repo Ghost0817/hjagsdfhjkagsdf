@@ -1,0 +1,43 @@
+entity Nationality {
+	name String,
+    slug String,
+    hits Long
+}
+
+entity Profession {
+	name String,
+    slug String,
+}
+
+entity Author {
+	born String,
+    died String,
+    description String,
+    body String,
+    slug String,
+    name String,
+    hits Long,
+    trick String
+}
+
+entity Topic {
+	name String,
+    slug String,
+    hits Long
+}
+
+entity Quote {
+	quote String,
+    image String,
+    keywords String
+}
+
+relationship ManyToOne {
+	Author{profession} to Profession,
+	Author{nationality} to Nationality,
+    Quote{topic} to Topic,
+    Quote{author} to Author
+}
+
+// set pagination options
+paginate Qoute with pagination

@@ -1,0 +1,11 @@
+Allergy or Sickness
+When spring and summer creep up on us, we often don't know if what we're experiencing are allergies or basic end-of-flu-season ailments. 
+There are a number of ways to recognize allergy symptoms and differentiate between being sick and having an allergic reaction. 
+The reason why it's important to know the difference is because allergic reactions can run the gamut from the very mild and up to life-threatening symptoms so you need to know which kind you experience. 
+A few surefire symptoms of allergic reactions are as follows: rashes, itchy eyes, nasal congestion, itchiness, difficulty breathing, cramps, vomiting, and dizziness.
+
+Харшил эсвэл өвчин
+Хавар, зун бидэн дээр ургах үед бид харшилтай эсвэл ханиад томууны төгсгөлийн үндсэн өвчин үү гэдгийг бид ихэнхдээ мэддэггүй.
+Харшлын шинж тэмдгийг таних, өвчтэй байх, харшлын урвал үзүүлэхээс ялгах хэд хэдэн арга байдаг.
+Ялгааг мэдэх нь яагаад чухал вэ гэхээр харшлын урвал нь тоглоомыг маш зөөлөн бөгөөд амь насанд аюултай шинж тэмдгүүдээс удирдаж чаддаг тул та ямар төрлийн туршлагатай болохыг мэдэх хэрэгтэй.
+Харшлын урвалын хэд хэдэн баталгаатай шинж тэмдгүүд нь: тууралт, нүд загатнах, хамрын түгжрэл, загатнах, амьсгалахад хэцүү, хавагнах, бөөлжих, толгой эргэх.

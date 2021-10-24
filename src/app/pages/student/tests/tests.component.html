@@ -1,0 +1,75 @@
+<div class="typing-container super">
+    <div class="top-zar" style="width: 970px;height: 90px;">
+      top banner
+    </div>
+    <div class="left-zar" style="width: 300px;height: 600px;">
+      left banner
+    </div>
+    <div class="container-main">
+  
+        <div class="login_warring"><a class="close" onclick="">x</a>You are not logged in. Typing progress will not be saved.</div>
+  
+
+        <h1>Take a Free Typing Test</h1>
+        <p>Take our online Typing Test for free! We offer a one minute typing test, three minute typing test, and five minute typing test, that you can take as many times as you like, and see your typing speed improve over time!</p>
+
+        <section class="lang_widget">
+            <ul>
+                <li [ngClass]="{'active': currLng === 'ENGLISH' }" (click)="getLessons('ENGLISH')">
+                    <article>
+                        <div class="flagEn">
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                            <a class="lang-course">English course</a>
+                            </h2>
+                        </div>
+                    </article>
+                </li>
+                <li [ngClass]="{'active': currLng === 'MONGOLIAN' }" (click)="getLessons('MONGOLIAN')">
+                    <article>
+                        <div class="flagMn">
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                                <a class="lang-course">Mongolian course</a>
+                            </h2>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="widget_accordion">
+            <ul>
+                <li *ngFor="let category of cateroties">
+                    <article>
+                        <div class="button">
+                            <span>+</span>
+                            <span>-</span>
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                                <a class="lang-course" (click)="getLessons('MONGOLIAN')">
+                                    <label>{{ category.enTitle }}</label>
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="item-container" style="display: block;">
+                            <ul>
+                                <li *ngFor="let lesson of category.lessons">
+                                    <a href="/student/typing-test?lang={{currLng}}&test={{lesson.slug}}">
+                                        <label>{{ lesson.enTitle }}</label>
+                                        <span class="start-link">{{lesson.enBttnLbl}} »</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</div>

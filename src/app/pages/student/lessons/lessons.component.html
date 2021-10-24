@@ -1,0 +1,91 @@
+<div class="typing-container super">
+    <div class="top-zar" style="width: 970px;height: 90px;">
+      top banner
+    </div>
+    <div class="left-zar" style="width: 300px;height: 600px;">
+      left banner
+    </div>
+    <div class="container-main">
+  
+        <div class="login_warring"><a class="close" onclick="">x</a>You are not logged in. Typing progress will not be saved.</div>
+  
+        <section class="lang_widget">
+            <ul>
+                <li [ngClass]="{'active': currLng === 'ENGLISH' }" (click)="getLessons('ENGLISH')">
+                    <article>
+                        <div class="flagEn">
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                            <a class="lang-course">English course</a>
+                            </h2>
+                        </div>
+                    </article>
+                </li>
+                <li [ngClass]="{'active': currLng === 'MONGOLIAN' }" (click)="getLessons('MONGOLIAN')">
+                    <article>
+                        <div class="flagMn">
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                                <a class="lang-course">Mongolian course</a>
+                            </h2>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="widget_accordion">
+            <ul>
+                <li *ngFor="let category of cateroties" 
+                [ngClass]="{ 'open': category.slug === currCtgry }"
+                (click)="openLesson(category.slug)">
+                    <article>
+                        <div class="button">
+                            <span>+</span>
+                            <span>-</span>
+                        </div>
+                        <div class="accordion-item">
+                            <h2>
+                                <a class="lang-course">
+                                    <label>{{ category.enTitle }}</label>
+                                    <span class="course-status">100% Completed</span>
+                                    <span class="start-link">Эхлэх »</span>
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="item-container">
+                            <ul>                                     
+                                <li class="active">
+                                    <a>
+                                        <label>The Home Row Keys</label>
+                                        <span class="lesson-status">
+                                            <b>Completed!</b>
+                                            123
+                                            WPM / 100% Accuracy                                                              
+                                        </span>
+                                        <span class="start-btn">Үргэлжлүүлэх »</span>
+                                    </a>
+                                </li>                                                
+                                <li class="">
+                                    <a>The Top Row Keys
+                                        <span class="start-btn">begin »</span>
+                                    </a>
+                                </li>
+                                <li *ngFor="let lesson of category.lessons">
+                                    <a href="/student/lesson?lang={{currLng}}&cate={{category.slug}}&lssn={{lesson.slug}}">
+                                        <label>{{ lesson.enTitle }}</label>
+                                        <span class="start-btn">begin »</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</div>

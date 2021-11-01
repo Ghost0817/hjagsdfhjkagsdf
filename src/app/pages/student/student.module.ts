@@ -14,7 +14,6 @@ import { MatIconModule } from "@angular/material/icon";
     CommonModule,
     FormsModule,
     RouterModule,
-    SharedModule,
     StudentRoutingModule,
     MatIconModule
   ],

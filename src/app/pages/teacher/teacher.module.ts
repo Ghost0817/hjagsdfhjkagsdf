@@ -10,7 +10,6 @@ import { SharedModule } from 'src/app/shared/shared.module';
   declarations: [TeacherComponent],
   imports: [
     CommonModule,
-    SharedModule,
     TeacherRoutingModule
   ]
 })

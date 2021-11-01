@@ -1,1 +1,15 @@
-<p>signup works!</p>
+
+
+
+<form class="form-container" [formGroup]="regForm" (ngSubmit)="onSubmit()">
+    <input formControlName="username" />
+    <input formControlName="password" />
+    <input formControlName="re_password" />
+    <input formControlName="email" />
+
+    <x-button  type="submit" [disabled]="!regForm.valid">Create Account</x-button>
+</form>
+
+<pre>
+    {{regForm.value | json}}
+</pre>

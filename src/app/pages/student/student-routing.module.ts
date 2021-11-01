@@ -19,11 +19,11 @@ const routes: Routes = [{
   }, {
     path: 'lessons',
     loadChildren: () => import('./lessons/lessons.module').then(m => m.LessonsModule),
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   }, {
     path: 'lesson',
     loadChildren: () => import('./lesson/lesson.module').then(m => m.LessonModule),
-    canActivate: [AuthGuard]
+    //canActivate: [AuthGuard]
   }, {
     path: 'tests',
     loadChildren: () => import('./tests/tests.module').then(m => m.TestsModule),

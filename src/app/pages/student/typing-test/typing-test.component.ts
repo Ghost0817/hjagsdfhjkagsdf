@@ -11,7 +11,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 })
 export class TypingTestComponent implements OnInit {
   // this is test data
-  lessons;
+  lessons: any;
 
   // if it is start timer, it will true 
   timeIsRunning = false;
@@ -96,8 +96,29 @@ export class TypingTestComponent implements OnInit {
       // this.api.get('/api/categories').subscribe(response => {
       //   console.log(response);
       // })
-      this.api.get('/api/studentTests').subscribe(response => {
-        this.lessons = response;
+
+      //01Nov2021
+      // this.api.get('/api/studentTests').subscribe(response => {
+      //   this.lessons = response;
+
+      //   this.testIndex = this.randomNumber(0, this.lessons.length - 1);
+      //   this.words = this.lessons[this.testIndex].tutor.split(" ").map(word => {
+      //     return word + " ";
+      //   });
+      //   this.formGroup = new FormGroup({
+      //     wrote: new FormControl("")
+      //   });
+      //   this.formGroup.valueChanges.subscribe(change => {
+      //     console.log(change);
+      //     this.onChange(change.wrote);
+      //   });
+      //   this.words.forEach(word => {
+      //     this.typingProcess.push({word, status: 'unknown', letters: []});
+      //   });
+
+      // })
+
+      this.lessons = contents;
 
         this.testIndex = this.randomNumber(0, this.lessons.length - 1);
         this.words = this.lessons[this.testIndex].tutor.split(" ").map(word => {
@@ -113,8 +134,6 @@ export class TypingTestComponent implements OnInit {
         this.words.forEach(word => {
           this.typingProcess.push({word, status: 'unknown', letters: []});
         });
-
-      })
     });
   }
 

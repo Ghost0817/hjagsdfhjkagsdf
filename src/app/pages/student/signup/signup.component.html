@@ -7,9 +7,16 @@
 <p class="lead">No problem! <strong>Bicheech.com is free!</strong></p>
 
 <form class="form-container" [formGroup]="regForm" (ngSubmit)="onSubmit()">
+   
     <x-input formControlName="username" fieldType="text" fieldName="username" [parentForm]="regForm" formLabel="Username"></x-input>
+    
     <x-input formControlName="email" fieldType="email" fieldName="email" [parentForm]="regForm" formLabel="Email"></x-input>
-
+    
+    <x-input formControlName="password" fieldType="password" fieldName="password" [parentForm]="regForm" formLabel="Password"></x-input>
+    
+    <x-input formControlName="re_password" fieldType="password" fieldName="password" [parentForm]="regForm" formLabel="Repassword"></x-input>
+    
+    
     <!-- <div class="form-row">
 
         <label class="form-label" for="email">email</label>

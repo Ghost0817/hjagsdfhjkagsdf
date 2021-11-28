@@ -1,0 +1,15 @@
+<ng-container *ngIf="formField?.dirty">
+    <span class="field-error" *ngIf="formField?.hasError('required')">
+        This is a required field.
+    </span>
+
+    <span class="field-error" *ngIf="formField?.hasError('email')">
+        Email format is invalid.
+    </span>
+    <span class="field-error" *ngIf="formField.errors?.minlength">
+        This is must be at least 3 characters long.
+    </span>
+    <span class="field-error" *ngIf="formField.errors?.maxlength"> 
+        This can be max 40 characters long.
+    </span>
+</ng-container>

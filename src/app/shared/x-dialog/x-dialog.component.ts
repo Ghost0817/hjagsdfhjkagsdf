@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './x-dialog.component.html',
   styleUrls: ['./x-dialog.component.scss']
 })
-export class XDialogComponent implements OnInit {
+export class XDialogComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

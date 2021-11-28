@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './x-form.component.html',
   styleUrls: ['./x-form.component.scss']
 })
-export class XFormComponent implements OnInit {
+export class XFormComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

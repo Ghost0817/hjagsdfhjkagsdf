@@ -1,15 +1,67 @@
+<div class="panel panel-default">
+    <div class="panel-body">
 
 
+<h4>Don't have an account?</h4>
+
+<p class="lead">No problem! <strong>Bicheech.com is free!</strong></p>
 
 <form class="form-container" [formGroup]="regForm" (ngSubmit)="onSubmit()">
-    <input formControlName="username" />
+    <x-input formControlName="username" fieldType="text" fieldName="username" [parentForm]="regForm" formLabel="Username"></x-input>
+    <x-input formControlName="email" fieldType="email" fieldName="email" [parentForm]="regForm" formLabel="Email"></x-input>
+
+    <!-- <div class="form-row">
+
+        <label class="form-label" for="email">email</label>
+        
+        <input class="form-control" type="email" name="email" id="email"
+        formControlName="email" email="true"
+        [ngClass]="{'has-error': emailField?.invalid && (emailField?.dirty || emailField?.touched)}"
+        required
+        >
+
+        <span class="field-error" *ngIf="emailField?.hasError('required') && emailField?.dirty">
+            This is a required field.
+        </span>
+
+        <span class="field-error" *ngIf="emailField?.hasError('email') && emailField?.dirty">
+            Email format is invalid.
+        </span>
+    </div> -->
+
+    <!-- <div class="form-row">
+
+        <label class="form-label" for="username">username</label>
+        
+        <input class="form-control" type="username" name="username" id="username"
+        formControlName="username"
+        [ngClass]="{'has-error': usernameField?.invalid && (usernameField?.dirty || usernameField?.touched)}"
+        required
+        >
+
+        <span class="field-error" *ngIf="usernameField?.hasError('required') && usernameField?.dirty">
+            This is a required field.
+        </span>
+
+        <span class="field-error" *ngIf="usernameField.errors?.minlength">
+            Username must be at least 3 characters long.
+        </span>
+        <span class="field-error" *ngIf="usernameField.errors?.maxlength"> 
+            Username can be max 40 characters long.
+        </span>
+    </div> -->
+
     <input formControlName="password" />
     <input formControlName="re_password" />
-    <input formControlName="email" />
-
+    
     <x-button  type="submit" [disabled]="!regForm.valid">Create Account</x-button>
 </form>
 
 <pre>
     {{regForm.value | json}}
 </pre>
+<p>Form Status: {{ regForm.status }}</p>
+
+
+</div>
+</div>

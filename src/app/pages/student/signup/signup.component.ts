@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { EmailValidator, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-signup',
@@ -8,16 +8,55 @@ import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 })
 export class SignupComponent implements OnInit {
 
-  regForm!: FormGroup
+  public regForm!: FormGroup;
+
+  public passwordType: string = 'password';
+
+  get emailField () {
+    return this.regForm.get('email');
+  }
+  get usernameField () {
+    return this.regForm.get('username');
+  }
+
+
 
   constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
     this.regForm = new FormGroup({
-      username: new FormControl(''),
-      password: new FormControl(''),
-      re_password: new FormControl(''),
-      email: new FormControl('')
+      username: new FormControl(
+      '',
+      {
+        validators: [
+          Validators.required,
+          Validators.minLength(3),
+          Validators.maxLength(40)
+      ]}),
+      password: new FormControl(
+        '',
+        {
+          validators: [
+            Validators.required,
+            Validators.minLength(8),
+            Validators.maxLength(120)
+        ]}),
+      re_password: new FormControl(
+        '',
+        {
+          validators: [
+            Validators.required,
+            Validators.minLength(8),
+            Validators.maxLength(120)
+        ]}),
+      email: new FormControl(
+        'ssasdasd',
+        {
+          validators: [
+            Validators.required,
+            //UniversalValidators.noEmptyString,
+            Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$')
+        ]})
     });
   }
 

@@ -1,4 +1,4 @@
-<div class="middlebox">
+<div class="login-page">
     <div class="panel panel-default">
         <div class="panel-body">
             <div class="login-box">
@@ -14,7 +14,11 @@
                     </ng-template>
 
 
-                    <form>
+                    <form class="form-container" [formGroup]="regForm" (ngSubmit)="login()">
+
+                        <x-input formControlName="username" fieldType="text" fieldName="username" [parentForm]="regForm" formLabel="Username"></x-input>
+
+                        <x-input formControlName="password" fieldType="password" fieldName="password" [parentForm]="regForm" formLabel="Password"></x-input>
 
                         <input type="hidden" name="_csrf_security_token" value="testy" />
                         <input type="hidden" name="_target_path" value="homepage" />

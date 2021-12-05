@@ -1,9 +1,27 @@
-.login-box{
+.login-page{
+    width: 572px;
+    margin: 60px auto;
+    display: block;
 
-}
-.register-box{
-    background-color: #d7d7d7;
-    padding: 15px;
+  .panel{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    margin-right: 5px;
+    margin-left: 5px;
+    &.panel-default {
+      border-color: #ddd;
+    }
+    .panel-body {
+      padding: 15px;
+
+      .login-box{width: 50%;}
+      .register-box{width: 50%;}
+    }
+  }
 }
 .teacherCallout {
     clear: both;

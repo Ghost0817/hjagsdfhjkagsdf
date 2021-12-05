@@ -1,17 +1,17 @@
 <div class="form-row">
+    <div class="input-group">
+        <label class="form-label" [for]="fieldName">{{ formLabel }}</label>
+        
+        <input type="text" class="form-control" [value]="value"
+        [ngClass]="{'has-error': formField?.invalid && (formField?.dirty || formField?.touched)}"
+        [disabled]="isDisabled"
+        (input)="changed($event.target.value )"
+        (blur)="touched()"
+        [id]="fieldName"
+        [name]="fieldName"
+        [type]="fieldType"
+        >
 
-    <label class="form-label" [for]="fieldName">{{ formLabel }}</label>
-    
-    <input type="text" class="form-control" [value]="value"
-    [ngClass]="{'has-error': formField?.invalid && (formField?.dirty || formField?.touched)}"
-    [disabled]="isDisabled"
-    (input)="changed($event.target.value )"
-    (blur)="touched()"
-    [id]="fieldName"
-    [name]="fieldName"
-    [type]="fieldType"
-    >
-
-    <x-field-errors [formField]="formField"></x-field-errors>
-    
+        <x-field-errors [formField]="formField"></x-field-errors>
+    </div>
 </div>

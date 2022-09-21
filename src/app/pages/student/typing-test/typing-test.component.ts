@@ -1,20 +1,42 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { ApiService } from 'src/app/core/services/api.service';
+import { WsapiService } from 'src/app/core/services/wsapi.service';
 import { contents } from 'src/app/core/constants/fake-content'
 import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-typing-test',
-  templateUrl: './typing-test.component.html',
-  styleUrls: ['./typing-test.component.scss']
+  selector: 'app-racewithfriends',
+  templateUrl: './racewithfriends.component.html',
+  styleUrls: ['./racewithfriends.component.scss']
 })
-export class TypingTestComponent implements OnInit {
-  // this is test data
-  lessons;
+export class RacewithfriendsComponent implements OnInit {
 
+  webSocketAPI!: WsapiService;
+  message: string = "";
+  roomId: string = "";
+  messages: any = [];
+  members: any = [];
+  yourToken : string = "";
+  counDown: number = 4;
+  startStr: String = "";
+
+  dialogUrlRoom: boolean = true;
+  dialogStart: boolean = false;
+
+
+  lessons: any;
+  speedType = 'wpm';
+  words:any = [];
+  formGroup!: FormGroup;
+  wrote = new FormControl("");
+  playSounds = true;
+  wordIndex = 0;
+  letterIndex = 0;
+  testIndex = 0;
+  typingProcess:any = [];
   // if it is start timer, it will true 
   timeIsRunning = false;
+  
   // this is decide to timer count down or up
   timeCountIsUp = true;
   // this is timer text
@@ -27,99 +49,159 @@ export class TypingTestComponent implements OnInit {
   timeLimit = 0;
   // this is 
   timeTricker = 0;
-
-  wpm = "0";
+  
+  wpm:number = 0;
   //whole
-  lwpm = "0";
+  lwpm:number = 0;
   // mistake count
   errors = 0;
   // it is only count current text value. 
   characters = 0;
   accuracy = 100;
+  interval: any;
 
-  speedType = 'wpm';
-  typingProcess = [];
-  testIndex = 0;
-  wordIndex = 0;
-  letterIndex = 0;
-  words = [];
-  formGroup: FormGroup;
-  wrote = new FormControl("");
-  timer = null;
+  constructor(private route: ActivatedRoute) {  }
 
-  constructor(private activatedRoute: ActivatedRoute,
-              private api: ApiService) {
-    activatedRoute.queryParams.subscribe(params => {
-      if(params['test'] == "1-minute") {
-        this.minutes = 1;
-        this.seconds = 0;
-        this.timeLimit = 60;
-        this.timeCountIsUp = false;
-      }
-      if(params['test'] == "3-minute") {
-        this.minutes = 3;
-        this.seconds = 0;
-        this.timeLimit = 180;
-        this.timeCountIsUp = false;
-      }
-      if(params['test'] == "5-minute") {
-        this.minutes = 5;
-        this.seconds = 0;
-        this.timeLimit = 300;
-        this.timeCountIsUp = false;
-      }
-      if(params['test'] == "1-page") {
-        this.minutes = 0;
-        this.seconds = 0;
-        this.timeLimit = 480;
-      }
-      if(params['test'] == "2-page") {
-        this.minutes = 0;
-        this.seconds = 0;
-        this.timeLimit = 960;
-      }
-      if(params['test'] == "3-page") {
-        this.minutes = 0;
-        this.seconds = 0;
-        this.timeLimit = 1440;
-      }
+  ngOnInit(): void {
+    const  __this = this;
+    this.route
+      .queryParams
+      .subscribe(params => {
+        // Defaults to 0 if no query param provided.
+        this.roomId = params['id'] || "";
+        this.webSocketAPI = new WsapiService(this);
+        this.webSocketAPI.id = this.roomId;
+
+        this.webSocketAPI._connect();
+        
+      });
       
-      // this.api.get('/api/games').subscribe(response => {
-      //   console.log(response);
-      // })
-      // this.api.get('/api/tips').subscribe(response => {
-      //   console.log(response);
-      // })
-      // this.api.get('/api/lessons').subscribe(response => {
-      //   console.log(response);
-      // })
-      // this.api.get('/api/categories').subscribe(response => {
-      //   console.log(response);
-      // })
-      this.api.get('/api/studentTests').subscribe(response => {
-        this.lessons = response;
+    //This is a very elegant method - for a single component.
+    window.onbeforeunload = () => this.ngOnDestroy();
 
-        this.testIndex = this.randomNumber(0, this.lessons.length - 1);
-        this.words = this.lessons[this.testIndex].tutor.split(" ").map(word => {
-          return word + " ";
-        });
-        this.formGroup = new FormGroup({
-          wrote: new FormControl("")
-        });
-        this.formGroup.valueChanges.subscribe(change => {
-          console.log(change);
-          this.onChange(change.wrote);
-        });
-        this.words.forEach(word => {
-          this.typingProcess.push({word, status: 'unknown', letters: []});
-        });
 
-      })
+    
+    this.lessons = contents;
+    
+    this.testIndex = this.randomNumber(0, this.lessons.length - 1);
+    this.words = this.lessons[this.testIndex].tutor.split(" ").map((word: string) => {
+      return word + " ";
+    });
+    this.formGroup = new FormGroup({
+      wrote: new FormControl("")
+    });
+    this.formGroup.valueChanges.subscribe(change => {
+      this.onChange(change.wrote);
+    });
+    this.words.forEach((word: any) => {
+      this.typingProcess.push({word, status: 'unknown', letters: []});
     });
   }
 
-  ngOnInit(): void {
+  ngOnDestroy(): void {
+    this.webSocketAPI._disconnect();
+    //throw new Error('Method not implemented.');
   }
+
+  setUserToken(member: string): void{
+    this.yourToken = member
+  }
+
+  handlePrivateMessage(message: any){
+    if(this.roomId == "") {
+      this.roomId=message.roomId;
+      this.webSocketAPI.id = this.roomId;
+    }
+    this.messages.push({"text": message.content});
+  }
+
+  sendPrivateMessage() {
+    if(this.message != "") {
+      this.webSocketAPI._sendPrivateToMember(this.message);
+      this.message = "";
+    }
+  }
+
+  getMessage(message: any): string {
+    return message["text"];
+  }
+
+  getBaseUrl(): string {
+    return location.href;
+  }
+
+  handleMembers(members: any){
+    this.members = members;
+  }
+
+  getUsername(member: any): string{
+    return member["userName"];
+  }
+
+  isMe(member: any): boolean{
+
+    if(member["userId"]==this.yourToken)
+      return true;
+    return false;
+  }
+
+  open(): void {
+    this.dialogUrlRoom = true;
+  }
+
+  close(): void {
+    this.dialogUrlRoom = false;
+
+  }
+
+  open1(): void {
+    this.dialogUrlRoom = true;
+  }
+
+  close1(): void {
+    this.dialogUrlRoom = false;
+
+  }
+
+  start(): void {
+    this.dialogStart = true;
+    this.interval = setInterval(() => {
+      this.counDown = this.counDown - 1;
+      this.startStr = "Waiting for competitors... " + this.counDown;
+      if(this.counDown == 0) {
+        clearInterval(this.interval);
+        this.dialogStart = false;
+        this.counDown = 4;
+        this.startStr = "Waiting for competitors... " + this.counDown;
+        this.timeIsRunning = true;
+      }
+      
+    },1000);
+  }
+
+  leave(): void {
+    this.dialogStart = false;
+    clearInterval(this.interval);
+    this.counDown = 4;
+    this.startStr = "Waiting for competitors... " + this.counDown;
+    this.timeIsRunning = false;
+  }
+
+  leaveRace():void {
+
+  }
+
+
+
+  getStatus() {
+    const status = {missedWord: 0, missedLetter: 0};
+    status.missedWord = this.typingProcess.filter((process:any) => process.status === 'wrong').length;
+    this.typingProcess.filter((process:any) => process.status === 'wrong').forEach((process:any) => {
+      status.missedLetter += process.letters.filter((letter:boolean) => letter === false).length;
+    });
+    return status;
+  }
+
 
   randomNumber(min: number, max: number) {
     return Math.round(Math.random() * (max - min) + min);
@@ -141,47 +223,27 @@ export class TypingTestComponent implements OnInit {
     return (speed == Infinity) ? 100 : speed;
   }
 
-  getLetters(word) {
+  getLetters(word: string) {
     return word.split("");
   }
 
-  onChange(wrote) {
-    if(this.timeIsRunning == false) {
-      this.startTimer();
-      this.timeIsRunning = true;
-    }
-    if (wrote !== '') {
-      this.characters++;
-    }
+  playSound() {
+		if (!this.playSounds) return;
 
-    const letterIndex = wrote.length - 1;
-    if (wrote.length <= this.words[this.wordIndex].length) {
-      if (wrote === this.words[this.wordIndex].substr(0, wrote.length)) {
-        this.typingProcess[this.wordIndex].status = "right";
-      } else {
-        this.typingProcess[this.wordIndex].status = "wrong";
-
-        this.errors++;
-        
-        // make sound
-        this.playSound();
-      }
-
-      if (letterIndex !== -1) {
-        wrote[letterIndex] === this.words[this.wordIndex][letterIndex] ?
-          this.typingProcess[this.wordIndex].letters[letterIndex] = true :
-          this.typingProcess[this.wordIndex].letters[letterIndex] = false;
-      }
-    } else {
-      this.formGroup.controls['wrote'].setValue(wrote.substr(0, this.words[this.wordIndex].length));
-    }
-    console.log(this.formGroup)
-    // Calculate Accuracy
-    this.accuracy = 100-Math.round((this.errors/this.characters)*100);
-    // Calculate WPM
-    this.wpm = this.calculateSpeed(this.characters,this.timeTricker,this.errors);
-    this.lwpm = this.wpm;
+		if (navigator.userAgent.match(/MSIE 10/)) {
+			return
+		}
+    new Audio('../../../assets/audio/fail.mp3').play();
   }
+
+	toggleSound() {
+		if (this.playSounds) {
+			this.playSounds = false;
+		} else {
+			this.playSounds = true;
+		}
+		// sound enable xiij baigaa xeseg end xiij bn ajax call xiij bn. '/student/lesson/sound/'
+	}
 
   onSpace() {
     if (this.currentWrote.length === this.words[this.wordIndex].length) {
@@ -224,25 +286,51 @@ export class TypingTestComponent implements OnInit {
     return this.formGroup.controls['wrote'].value;
   }
 
-  setCurrentWrote(text) {
+  setCurrentWrote(text: string) {
     this.formGroup.controls['wrote'].setValue(text);
   }
 
-  getStatus() {
-    const status = {missedWord: 0, missedLetter: 0};
-    status.missedWord = this.typingProcess.filter(process => process.status === 'wrong').length;
-    this.typingProcess.filter(process => process.status === 'wrong').forEach(process => {
-      status.missedLetter += process.letters.filter(letter => letter === false).length;
-    });
-    return status;
+  onChange(wrote: string) {
+    if(this.timeIsRunning == false) {
+      this.startTimer();
+      this.timeIsRunning = true;
+    }
+    if (wrote !== '') {
+      this.characters++;
+    }
+
+    const letterIndex = wrote.length - 1;
+    if (wrote.length <= this.words[this.wordIndex].length) {
+      if (wrote === this.words[this.wordIndex].substr(0, wrote.length)) {
+        this.typingProcess[this.wordIndex].status = "right";
+      } else {
+        this.typingProcess[this.wordIndex].status = "wrong";
+
+        this.errors++;
+        
+        // make sound
+        this.playSound();
+      }
+
+      if (letterIndex !== -1) {
+        wrote[letterIndex] === this.words[this.wordIndex][letterIndex] ?
+          this.typingProcess[this.wordIndex].letters[letterIndex] = true :
+          this.typingProcess[this.wordIndex].letters[letterIndex] = false;
+      }
+    } else {
+      this.formGroup.controls['wrote'].setValue(wrote.substr(0, this.words[this.wordIndex].length));
+    }
+    //console.log(this.formGroup);
+    // Calculate Accuracy
+    this.accuracy = 100-Math.round((this.errors/this.characters)*100);
+    // Calculate WPM
+    this.wpm = this.calculateSpeed(this.characters,this.timeTricker,this.errors);
+    this.lwpm = this.wpm;
   }
 
   getbackfocus(e: any) {
     e.target.focus();
   }
-
-  interval;
-  playSounds = true;
 
   startTimer() {
     this.characters = 0;
@@ -259,25 +347,4 @@ export class TypingTestComponent implements OnInit {
 
     },1000)
   }
-
-
-	playSound() {
-		if (!this.playSounds) return;
-
-		if (navigator.userAgent.match(/MSIE 10/)) {
-			return
-		}
-    new Audio('../../../assets/audio/fail.mp3').play();
-  }
-  
-
-	toggleSound() {
-		if (this.playSounds) {
-			this.playSounds = false;
-		} else {
-			this.playSounds = true;
-		}
-		// sound enable xiij baigaa xeseg end xiij bn ajax call xiij bn. '/student/lesson/sound/'
-	}
-
 }

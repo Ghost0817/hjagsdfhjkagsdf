@@ -53,3 +53,12 @@ ng generate component pages/quotes
 ng generate module --routing=true pages/quotes/index
 
 ng generate component pages/quotes/index
+
+
+
+As a Graduate School student, pursuing a degree in Computer Science, my goal is to acquire advanced technical knowledge and skillset in the ever-growing field of computing. The field of computer science is ever-evolving and presents a broad range of opportunities, and I strive to be at the forefront of it. As a professional in the field of computer science, my goal is to utilize my knowledge and skillset to develop innovative solutions towards complex problems that affect people's lives positively.
+
+To achieve my goals, I am improving my skills and aiming to improve my understanding of different programming languages. I aim to specialize in areas as software engineering, which would enable me to create solutions that are adaptive, efficient, and intuitive. I also plan to participate actively in social programming initiatives to contribute to the development of my community and impact the world positively.
+
+In conclusion, the field of computer science presents a vast range of opportunities, and my goal as a Graduate School student and a professional is to make a positive impact on the world of computing while advancing my knowledge and skill set. I aim to specialize in areas that allow me to create innovative solutions that solve complex problems efficiently and effectively.
+

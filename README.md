@@ -54,9 +54,4 @@ ng generate module --routing=true pages/quotes/index
 
 ng generate component pages/quotes/index
 
-Transcendental Meditation, as TM calls it, is a widely accepted technique for stress relief, general health and productivity. It involves focusing on a single point, such as a breath, a word, or a calming image. Maharishi International University (MIU) recognizes the tremendous benefits TM can bring to its students. As a result, it became a core part of the university curriculum.
-
-Another reason why the Transcendental Meditation technique is an integral part of MIU is its potential to increase creativity and productivity. Research has shown that regular meditation practice calms the mind, increases creativity, and makes it easier for individuals to come up with new ideas and solve problems. Students who practice TM have better time management, focus, and overall productivity.
-
-In conclusion, the inclusion of Transcendental Meditation techniques in Maharishi International University's curriculum is evidence of the university's commitment to providing its students with a well-rounded education that is conducive to their overall growth and well-being. TM is a powerful tool that helps students manage stress and anxiety, increase creativity, and improve productivity. MIU recognizes the tremendous benefits that TM can provide and students can use simple yet effective techniques to help them achieve success in all areas of their lives.
 
